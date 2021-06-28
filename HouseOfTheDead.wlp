@@ -3,21 +3,21 @@
         "14": {
             "name": "Player",
             "transformation": [
-                0.9999998807907105,
+                -0.5,
                 0.0,
-                0.0,
+                -0.8660252094268799,
                 0.0,
                 0.0,
                 1.0,
                 0.0,
                 0.0,
+                0.8660252094268799,
                 0.0,
+                -0.5,
                 0.0,
-                0.9999998807907105,
+                2.1593942642211916,
                 0.0,
-                -2.5,
-                0.0,
-                1.1575536727905274,
+                -1.3361170291900635,
                 1.0
             ]
         },
@@ -596,7 +596,7 @@
             "transformation": [
                 -0.9994148015975952,
                 8.429378794971856e-8,
-                8.429370268459029e-8,
+                8.42937026845903e-8,
                 0.0,
                 5.3258572140120496e-14,
                 0.7066803574562073,
@@ -1799,7 +1799,10 @@
             ],
             "components": [
                 {
-                    "type": "player-height"
+                    "type": "player-height",
+                    "player-height": {
+                        "height": 1.75
+                    }
                 }
             ]
         },
@@ -4589,7 +4592,7 @@
             "deleted": true
         },
         "604": {
-            "name": "Zombie",
+            "name": "ZombieSphere",
             "transformation": [
                 0.25,
                 0.0,
@@ -4605,7 +4608,7 @@
                 0.0,
                 0.0,
                 1.0234884023666382,
-                3.5549604892730719,
+                3.5549604892730715,
                 1.0
             ],
             "parent": null,
@@ -4626,7 +4629,8 @@
                         "groups": 4
                     }
                 }
-            ]
+            ],
+            "deleted": true
         },
         "618": {
             "link": {
@@ -5816,10 +5820,10 @@
                 0.0,
                 0.0,
                 1.0,
-                2.980232238769532e-8,
+                2.9802322387695329e-8,
                 0.0,
                 2.9103830456733706e-11,
-                -2.980232238769532e-8,
+                -2.9802322387695329e-8,
                 1.0,
                 0.0,
                 -0.07500028610229492,
@@ -5857,6 +5861,507 @@
                 "file": "Assets\\pistol.glb"
             },
             "parent": "784"
+        },
+        "789": {
+            "link": {
+                "name": "Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.629206991538013e-7,
+                0.0,
+                0.0,
+                -1.629206991538013e-7,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.6315490007400513,
+                1.0
+            ],
+            "components": [
+                {
+                    "type": "zombie-controller",
+                    "zombie-controller": {
+                        "zombieMesh": "845",
+                        "zombieAnimation": "790",
+                        "walkAnimParam": "844"
+                    }
+                }
+            ]
+        },
+        "790": {
+            "link": {
+                "name": "Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "789",
+            "components": [
+                {
+                    "animation": {
+                        "preview": false,
+                        "autoplay": true,
+                        "animation": "840"
+                    }
+                }
+            ],
+            "transformation": [
+                0.9738473296165466,
+                -0.07563597708940506,
+                0.21424423158168794,
+                0.0,
+                0.034356240183115008,
+                0.9811415672302246,
+                0.1902122050523758,
+                0.0,
+                -0.22459082305431367,
+                -0.1778770387172699,
+                0.9580807685852051,
+                0.0,
+                0.2379007786512375,
+                3.8289849758148195,
+                0.19580122828483582,
+                1.0
+            ]
+        },
+        "791": {
+            "link": {
+                "name": "Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "790"
+        },
+        "792": {
+            "link": {
+                "name": "Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "791"
+        },
+        "793": {
+            "link": {
+                "name": "Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "792"
+        },
+        "794": {
+            "link": {
+                "name": "Neck.6<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "793"
+        },
+        "795": {
+            "link": {
+                "name": "Head.7<Neck.6<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "794"
+        },
+        "796": {
+            "link": {
+                "name": "HeadTop_End.8<Head.7<Neck.6<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "795"
+        },
+        "797": {
+            "link": {
+                "name": "HeadTop_End_end.9<HeadTop_End.8<Head.7<Neck.6<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "796"
+        },
+        "798": {
+            "link": {
+                "name": "LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "793"
+        },
+        "799": {
+            "link": {
+                "name": "LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "798"
+        },
+        "800": {
+            "link": {
+                "name": "LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "799"
+        },
+        "801": {
+            "link": {
+                "name": "LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "800"
+        },
+        "802": {
+            "link": {
+                "name": "LeftHandThumb1.14<LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "801"
+        },
+        "803": {
+            "link": {
+                "name": "LeftHandThumb2.15<LeftHandThumb1.14<LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "802"
+        },
+        "804": {
+            "link": {
+                "name": "LeftHandThumb3.16<LeftHandThumb2.15<LeftHandThumb1.14<LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "803"
+        },
+        "805": {
+            "link": {
+                "name": "LeftHandThumb4.17<LeftHandThumb3.16<LeftHandThumb2.15<LeftHandThumb1.14<LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "804"
+        },
+        "806": {
+            "link": {
+                "name": "LeftHandThumb4_end.18<LeftHandThumb4.17<LeftHandThumb3.16<LeftHandThumb2.15<LeftHandThumb1.14<LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "805"
+        },
+        "807": {
+            "link": {
+                "name": "LeftHandIndex1.19<LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "801"
+        },
+        "808": {
+            "link": {
+                "name": "LeftHandIndex2.20<LeftHandIndex1.19<LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "807"
+        },
+        "809": {
+            "link": {
+                "name": "LeftHandIndex3.21<LeftHandIndex2.20<LeftHandIndex1.19<LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "808"
+        },
+        "810": {
+            "link": {
+                "name": "LeftHandIndex4.22<LeftHandIndex3.21<LeftHandIndex2.20<LeftHandIndex1.19<LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "809"
+        },
+        "811": {
+            "link": {
+                "name": "LeftHandIndex4_end.23<LeftHandIndex4.22<LeftHandIndex3.21<LeftHandIndex2.20<LeftHandIndex1.19<LeftHand.13<LeftForeArm.12<LeftArm.11<LeftShoulder.10<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "810"
+        },
+        "812": {
+            "link": {
+                "name": "RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "793"
+        },
+        "813": {
+            "link": {
+                "name": "RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "812"
+        },
+        "814": {
+            "link": {
+                "name": "RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "813"
+        },
+        "815": {
+            "link": {
+                "name": "RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "814"
+        },
+        "816": {
+            "link": {
+                "name": "RightHandThumb1.28<RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "815"
+        },
+        "817": {
+            "link": {
+                "name": "RightHandThumb2.29<RightHandThumb1.28<RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "816"
+        },
+        "818": {
+            "link": {
+                "name": "RightHandThumb3.30<RightHandThumb2.29<RightHandThumb1.28<RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "817"
+        },
+        "819": {
+            "link": {
+                "name": "RightHandThumb4.31<RightHandThumb3.30<RightHandThumb2.29<RightHandThumb1.28<RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "818"
+        },
+        "820": {
+            "link": {
+                "name": "RightHandThumb4_end.32<RightHandThumb4.31<RightHandThumb3.30<RightHandThumb2.29<RightHandThumb1.28<RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "819"
+        },
+        "821": {
+            "link": {
+                "name": "RightHandIndex1.33<RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "815"
+        },
+        "822": {
+            "link": {
+                "name": "RightHandIndex2.34<RightHandIndex1.33<RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "821"
+        },
+        "823": {
+            "link": {
+                "name": "RightHandIndex3.35<RightHandIndex2.34<RightHandIndex1.33<RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "822"
+        },
+        "824": {
+            "link": {
+                "name": "RightHandIndex4.36<RightHandIndex3.35<RightHandIndex2.34<RightHandIndex1.33<RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "823"
+        },
+        "825": {
+            "link": {
+                "name": "RightHandIndex4_end.37<RightHandIndex4.36<RightHandIndex3.35<RightHandIndex2.34<RightHandIndex1.33<RightHand.27<RightForeArm.26<RightArm.25<RightShoulder.24<Spine2.5<Spine1.4<Spine.3<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "824"
+        },
+        "826": {
+            "link": {
+                "name": "LeftUpLeg.38<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "790"
+        },
+        "827": {
+            "link": {
+                "name": "LeftLeg.39<LeftUpLeg.38<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "826"
+        },
+        "828": {
+            "link": {
+                "name": "LeftFoot.40<LeftLeg.39<LeftUpLeg.38<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "827"
+        },
+        "829": {
+            "link": {
+                "name": "LeftToeBase.41<LeftFoot.40<LeftLeg.39<LeftUpLeg.38<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "828"
+        },
+        "830": {
+            "link": {
+                "name": "LeftToe_End.42<LeftToeBase.41<LeftFoot.40<LeftLeg.39<LeftUpLeg.38<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "829"
+        },
+        "831": {
+            "link": {
+                "name": "LeftToe_End_end.43<LeftToe_End.42<LeftToeBase.41<LeftFoot.40<LeftLeg.39<LeftUpLeg.38<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "830"
+        },
+        "832": {
+            "link": {
+                "name": "RightUpLeg.44<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "790"
+        },
+        "833": {
+            "link": {
+                "name": "RightLeg.45<RightUpLeg.44<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "832"
+        },
+        "834": {
+            "link": {
+                "name": "RightFoot.46<RightLeg.45<RightUpLeg.44<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "833"
+        },
+        "835": {
+            "link": {
+                "name": "RightToeBase.47<RightFoot.46<RightLeg.45<RightUpLeg.44<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "834"
+        },
+        "836": {
+            "link": {
+                "name": "RightToe_End.48<RightToeBase.47<RightFoot.46<RightLeg.45<RightUpLeg.44<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "835"
+        },
+        "837": {
+            "link": {
+                "name": "RightToe_End_end.49<RightToe_End.48<RightToeBase.47<RightFoot.46<RightLeg.45<RightUpLeg.44<Hips.2<Zombie.1",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "836"
+        },
+        "838": {
+            "link": {
+                "name": "Zombie_Cylinder.50",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "deleted": true
+        },
+        "839": {
+            "link": {
+                "name": "<Zombie_Cylinder.50",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "parent": "838",
+            "transformation": [
+                0.20000000298023225,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.20000000298023225,
+                5.684341970784096e-15,
+                0.0,
+                0.0,
+                -5.684341970784096e-15,
+                0.20000000298023225,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "components": [
+                {
+                    "mesh": {
+                        "skin": "788"
+                    }
+                }
+            ],
+            "name": "ZombieSmoothMesh"
+        },
+        "845": {
+            "name": "ZombieSmoothMesh",
+            "parent": "789",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "787",
+                        "skin": "788",
+                        "material": "786"
+                    }
+                }
+            ],
+            "transformation": [
+                -0.3000018894672394,
+                -1.4293395026593326e-13,
+                0.0000026226043701171877,
+                0.0,
+                -1.4293266277585343e-13,
+                0.30000001192092898,
+                4.618527782440651e-14,
+                0.0,
+                -0.0000026226043701171877,
+                4.618527782440651e-14,
+                -0.3000018894672394,
+                0.0,
+                -2.007662534713745,
+                5.161372200745973e-7,
+                8.378440856933594,
+                1.0
+            ]
+        },
+        "848": {
+            "name": "Empty.001",
+            "parent": "217",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "8",
+                        "material": "20"
+                    }
+                }
+            ],
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -5.443460941314697,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "deleted": true
         }
     },
     "meshes": {
@@ -6403,6 +6908,12 @@
                 "name": "Mesh Group 201.1",
                 "file": "Assets\\pistol.glb"
             }
+        },
+        "787": {
+            "link": {
+                "name": "mesh_0",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            }
         }
     },
     "textures": {
@@ -6763,6 +7274,12 @@
             "link": {
                 "name": "zombieC.png",
                 "file": "Assets\\Zombie.glb"
+            }
+        },
+        "847": {
+            "link": {
+                "name": "ZombieTexture.png",
+                "file": "Assets\\ZombieTexture.png"
             }
         }
     },
@@ -7140,6 +7657,12 @@
             "link": {
                 "name": "image_0",
                 "file": "Assets\\Zombie.glb"
+            }
+        },
+        "846": {
+            "link": {
+                "name": "ZombieTexture.png",
+                "file": "Assets\\ZombieTexture.png"
             }
         }
     },
@@ -7827,6 +8350,16 @@
                 "name": "dark",
                 "file": "Assets\\pistol.glb"
             }
+        },
+        "786": {
+            "link": {
+                "name": "material_0",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            },
+            "pipeline": "40",
+            "Phong": {
+                "diffuseTexture": "847"
+            }
         }
     },
     "shaders": {
@@ -7909,7 +8442,7 @@
             "version": [
                 0,
                 8,
-                5
+                6
             ]
         },
         "vr": {
@@ -7972,6 +8505,36 @@
                 "name": "Zombie|ZombieWalk",
                 "file": "Assets\\ZombieSmooth.glb"
             }
+        },
+        "840": {
+            "link": {
+                "name": "Zombie|ZombieBite",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            }
+        },
+        "841": {
+            "link": {
+                "name": "Zombie|ZombieCrawl",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            }
+        },
+        "842": {
+            "link": {
+                "name": "Zombie|ZombieIdle",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            }
+        },
+        "843": {
+            "link": {
+                "name": "Zombie|ZombieRun",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            }
+        },
+        "844": {
+            "link": {
+                "name": "Zombie|ZombieWalk",
+                "file": "Assets\\ZombieSmooth.fbx.glb"
+            }
         }
     },
     "skins": {
@@ -7989,60 +8552,12 @@
             },
             "name": "HandRightSkin"
         },
-        "564": {
-            "link": {
-                "name": "skeleton #0",
-                "file": "Assets\\Zombie.glb"
-            }
-        },
-        "565": {
-            "link": {
-                "name": "skeleton #1",
-                "file": "Assets\\Zombie.glb"
-            }
-        },
-        "566": {
-            "link": {
-                "name": "skeleton #2",
-                "file": "Assets\\Zombie.glb"
-            }
-        },
-        "567": {
-            "link": {
-                "name": "skeleton #3",
-                "file": "Assets\\Zombie.glb"
-            }
-        },
-        "568": {
-            "link": {
-                "name": "skeleton #4",
-                "file": "Assets\\Zombie.glb"
-            }
-        },
-        "569": {
-            "link": {
-                "name": "skeleton #5",
-                "file": "Assets\\Zombie.glb"
-            }
-        },
-        "617": {
-            "link": {
-                "name": "skin_46",
-                "file": "Assets\\Walking.glb"
-            }
-        },
-        "657": {
-            "link": {
-                "name": "skin_45",
-                "file": "Assets\\Walking.glb"
-            }
-        },
-        "716": {
+        "788": {
             "link": {
                 "name": "Hips",
-                "file": "Assets\\ZombieSmooth.glb"
+                "file": "Assets\\ZombieSmooth.fbx.glb"
             },
-            "name": "Hips"
+            "name": "ZombieSmoothSkin"
         }
     },
     "pipelines": {
@@ -8136,6 +8651,8 @@
         "Assets/GLTF format/roofMetal_typeA.glb",
         "Assets/GLTF format/wallA_roof.glb",
         "Assets/roof.png",
-        "Assets/pistol.glb"
+        "Assets/pistol.glb",
+        "Assets/ZombieSmooth.fbx.glb",
+        "Assets/ZombieTexture.png"
     ]
 }

@@ -1,5 +1,5 @@
 WL.registerComponent('gun', {
-
+    p: {type: WL.Type.Int}
 }, {
     init: function () {
 
@@ -16,7 +16,7 @@ WL.registerComponent('gun', {
                     this.pulse(e.inputSource.gamepad);
                     this.soundGun.play();
                 }
-            })
+            });
             this.initialized = true;
         })
 
@@ -29,6 +29,5 @@ WL.registerComponent('gun', {
         actuator.pulse(1, 100);        
       },
     update: function (dt) {
-
     },
 });

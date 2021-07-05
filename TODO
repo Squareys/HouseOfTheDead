@@ -1,0 +1,17 @@
+Must have:
+    ☐ Muzzle Particles
+    ☐ Blood particles
+    ☐ sound fx when hitting the zombie
+    ☐ Zombie should not die of 1 bullet ('health')
+    ☐ Title screen
+
+Should have:
+    ☐ progressively get harder
+    ☐ game over screen
+
+Could have:
+    ☐ miss particles
+    ☐ limited bullets
+    ☐ if out of bullets, you should be able to hit the zombie with fists (hand tracking)
+
+Would like:

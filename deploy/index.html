@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link rel="preload" href="HouseOfTheDead-bundle.js?t=2021-06-28T22:26:00.700" as="script">
+    <link rel="preload" href="HouseOfTheDead-bundle.js?t=2021-07-05T23:46:40.024" as="script">
     <title>HouseOfTheDead</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,7 +46,7 @@
           webxr_framebuffer_scale_factor: 1.000
         };
     </script>
-    <script src="wonderland.min.js?t=2021-06-28T22:26:00.700"></script>
+    <script src="wonderland.min.js?t=2021-07-05T23:46:40.024"></script>
     <script type="module">
         import { simd, threads } from "./wasm-featuredetect.js";
 
@@ -62,7 +62,7 @@
 
             /* We need to ensure the bundle is loaded after the runtime js always */
             Module.preRun = function() {
-              bundle.src = "HouseOfTheDead-bundle.js?t=2021-06-28T22:26:00.700";
+              bundle.src = "HouseOfTheDead-bundle.js?t=2021-07-05T23:46:40.024";
             }
             s.src = runtime + '.js';
         }

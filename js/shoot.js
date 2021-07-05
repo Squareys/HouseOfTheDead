@@ -2,8 +2,9 @@ WL.registerComponent('shoot', {
 
 }, {
     init: function() {
-
+        
     },
+    
     start: function() {
         this.input = this.object.getComponent('input');
         this.initialized = false;
@@ -19,7 +20,10 @@ WL.registerComponent('shoot', {
                         forwardDirection, (1<<2) ) ;
 
                     if (rayHit.hitCount > 0) {
-                        console.log('Hit');
+                        const target = rayHit.objects[0].getComponent('zombie-target');
+                        if(target){
+                            target.kill();
+                        }                        
                     }
                 }
             })

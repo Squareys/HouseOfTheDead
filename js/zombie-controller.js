@@ -22,7 +22,7 @@ WL.registerComponent('zombie-controller', {
         let playerPos = []
         this.player.getTranslationWorld(playerPos);
         let newVec = [];
-        if (glMatrix.vec3.dist(playerPos, zombiePos) < 1) {
+        if (glMatrix.vec3.dist(playerPos, zombiePos) < 2) {
             if (!this.biting) {
                 this.anim.animation = this.biteAnimParam.retarget(this.mesh.skin);
                 this.anim.play();

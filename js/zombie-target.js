@@ -7,6 +7,6 @@ WL.registerComponent('zombie-target', {
         this.object.getTranslationWorld(thispos);
         this.zombieParticles.setTranslationWorld(thispos);
         this.zombieParticles.getComponent('zombie-particles').die();
-        this.zombieController.setTranslationWorld([0,-1000,0])
+        this.zombieController.getComponent('zombie-controller').reset();
     }
 });

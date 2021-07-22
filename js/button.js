@@ -23,12 +23,11 @@ WL.registerComponent('button', {
     },
 
     onClick: function(_, cursor) {
-     
+        this.soundClick.play();
         if(cursor.type != 'finger-cursor') {
             this.buttonMeshObject.translate([0.0, -0.1, 0.0]);
             setTimeout(() => this.buttonMeshObject.translate([0.0, 0.1, 0.0]), 100);
         }
-        
     },
 
     onUnHover: function(_, cursor) {

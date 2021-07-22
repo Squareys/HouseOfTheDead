@@ -1,4 +1,10 @@
+Bugs:
+    ☐ @today @critical Bones in arms are scaled incorrectly
+
 Must have:
+    ☐ @today Zombies coming from more places
+    ☐ @today Death Animation
+    
     ☐ Muzzle Particles
     ☐ Blood particles
     ☐ sound fx when hitting the zombie

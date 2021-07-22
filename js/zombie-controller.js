@@ -5,7 +5,6 @@ WL.registerComponent('zombie-controller', {
     zombiePool: { type: WL.Type.Object },
     walkAnimParam: { type: WL.Type.Animation },
     biteAnimParam: { type: WL.Type.Animation },
-    speed: { type: WL.Type.Float, default: 500.0 },
     player: { type: WL.Type.Object }
 }, {
     start: function () {

@@ -1,10 +1,11 @@
 
 WL.registerComponent('zombie-controller', {
     zombieMesh: { type: WL.Type.Object },
-    zombieAnimation: { type: WL.Type.Object },
+    zombieAnimation: { type: WL.Type.Object },    
     zombiePool: { type: WL.Type.Object },
     walkAnimParam: { type: WL.Type.Animation },
     biteAnimParam: { type: WL.Type.Animation },
+    deathAnimParam: { type: WL.Type.Animation },
     player: { type: WL.Type.Object }
 }, {
     start: function () {
@@ -13,7 +14,7 @@ WL.registerComponent('zombie-controller', {
         this.anim.animation = this.walkAnimParam.retarget(this.mesh.skin);        
         this.wm = this.object.getComponent('waypoint-movement');        
         this.reset();
-        
+        this.dying = false;
     },
     reset:function(){
         this.zombiePool.getComponent("zombie-pool").put(this);
@@ -21,6 +22,7 @@ WL.registerComponent('zombie-controller', {
         this.active = false;
         this.biting = false;       
         this.wm.active = false;
+        this.dying = false;
     },
     spawn:function(){        
         this.anim.animation = this.walkAnimParam.retarget(this.mesh.skin);
@@ -29,6 +31,17 @@ WL.registerComponent('zombie-controller', {
         this.wm.reset();
         this.wm.active = true;        
         this.active = true;
+    },
+    die:function(){
+        if(this.dying) return;
+        this.dying = true;
+        this.anim.animation = this.deathAnimParam.retarget(this.mesh.skin);
+        setTimeout(()=>{
+            this.reset();            
+            this.wm.reset();
+        },this.anim.animation.duration * 1000 - 100);        
+        this.anim.play();
+        this.wm.active = false;
     },
     update: function (dt) {
         if(!this.active){

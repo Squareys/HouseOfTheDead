@@ -14131,7 +14131,8 @@
                         "biteAnimParam": "2395",
                         "player": "14",
                         "speed": 100.0,
-                        "zombiePool": "1522"
+                        "zombiePool": "1522",
+                        "deathAnimParam": "2394"
                     },
                     "active": true
                 },
@@ -22791,7 +22792,8 @@
                         "biteAnimParam": "2395",
                         "player": "14",
                         "speed": 100.0,
-                        "zombiePool": "1522"
+                        "zombiePool": "1522",
+                        "deathAnimParam": "2394"
                     },
                     "active": true
                 },
@@ -23381,7 +23383,8 @@
                         "biteAnimParam": "2395",
                         "player": "14",
                         "speed": 100.0,
-                        "zombiePool": "1522"
+                        "zombiePool": "1522",
+                        "deathAnimParam": "2394"
                     },
                     "active": true
                 },
@@ -23972,7 +23975,8 @@
                         "biteAnimParam": "2395",
                         "player": "14",
                         "speed": 100.0,
-                        "zombiePool": "1522"
+                        "zombiePool": "1522",
+                        "deathAnimParam": "2394"
                     },
                     "active": true
                 },

@@ -1,9 +1,8 @@
-Bugs:
-    ☐ @today @critical Bones in arms are scaled incorrectly
+
 
 Must have:
     ☐ @today Zombies coming from more places
-    ☐ @today Death Animation
+    ✔ Death Animation @done(21-07-22 22:59)
     
     ☐ Muzzle Particles
     ☐ Blood particles
@@ -21,3 +20,6 @@ Could have:
     ☐ if out of bullets, you should be able to hit the zombie with fists (hand tracking)
 
 Would like:
+
+Bugs:
+    ✔ Bones in arms are scaled incorrectly @done(21-07-22 22:59)

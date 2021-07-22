@@ -4,11 +4,13 @@ WL.registerComponent('spawner', {
     start: function () {
         this.zombiePool = this.zombiePoolObject.getComponent("zombie-pool");
         setInterval(this.spawnZombie.bind(this), 5000);
+        
     },
     spawnZombie: function () {
+
         let zombie = this.zombiePool.get();
         if (zombie) {
-            zombie.spawn();
+            zombie.spawn(this.object.children[0]);
         }
     },
     update: function (dt) {

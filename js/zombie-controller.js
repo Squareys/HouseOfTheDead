@@ -24,11 +24,12 @@ WL.registerComponent('zombie-controller', {
         this.wm.active = false;
         this.dying = false;
     },
-    spawn:function(){        
+    spawn:function(path){        
         this.anim.animation = this.walkAnimParam.retarget(this.mesh.skin);
         this.anim.play();
-        this.biting = false;
-        this.wm.reset();
+        this.biting = false;        
+        this.wm.pathObject = path;
+        this.wm.init();
         this.wm.active = true;        
         this.active = true;
     },
@@ -59,12 +60,14 @@ WL.registerComponent('zombie-controller', {
                 this.anim.animation = this.biteAnimParam.retarget(this.mesh.skin);
                 this.anim.play();
                 this.biting = true;
+                this.wm.active = false;
             }
         } else {
             if(this.biting){
                 this.anim.animation = this.walkAnimParam.retarget(this.mesh.skin);
                 this.anim.play();
                 this.biting = false;
+                this.wm.active = true;
             }
             // //move in the direction of the player            
             // glMatrix.vec3.subtract(newVec, playerPos, zombiePos);

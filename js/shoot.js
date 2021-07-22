@@ -1,11 +1,11 @@
 WL.registerComponent('shoot', {
 
 }, {
-    init: function() {
-        
+    init: function () {
+
     },
-    
-    start: function() {
+
+    start: function () {        
         this.input = this.object.getComponent('input');
         this.initialized = false;
         WL.onXRSessionStart.push((session) => {
@@ -15,22 +15,23 @@ WL.registerComponent('shoot', {
                     let origin = this.object.getTranslationWorld([])
                     let forwardDirection = [0, 0, 0];
                     this.object.getForward(forwardDirection)
-
                     let rayHit = WL.scene.rayCast(origin,
-                        forwardDirection, (1<<2) ) ;
+                        forwardDirection, (1 << 2));
 
                     if (rayHit.hitCount > 0) {
-                        const target = rayHit.objects[0].getComponent('zombie-target');
-                        if(target){
-                            target.kill();
-                        }                        
+                        for (let i = 0; i < rayHit.hitCount; i++) {
+                            const target = rayHit.objects[i].getComponent('zombie-target');
+                            if (target) {                                
+                                target.kill();
+                            }
+                        }
                     }
                 }
             })
             this.initialized = true;
         })
     },
-    update: function(dt) {
+    update: function (dt) {
 
     },
 });

@@ -14384,7 +14384,7 @@
         "1506": {
             "link": {
                 "name": "pistol",
-                "file": "Assets\\pistol.glb"
+                "file": "assets\\pistol.glb"
             },
             "parent": "1505",
             "deleted": true
@@ -14418,7 +14418,7 @@
         "1508": {
             "link": {
                 "name": "pistol",
-                "file": "Assets\\pistol.glb"
+                "file": "assets\\pistol.glb"
             },
             "parent": "1507",
             "deleted": true
@@ -14452,7 +14452,7 @@
         "1510": {
             "link": {
                 "name": "pistol",
-                "file": "Assets\\pistol.glb"
+                "file": "assets\\pistol.glb"
             },
             "parent": "1509",
             "deleted": true
@@ -22386,7 +22386,7 @@
         "2343": {
             "link": {
                 "name": "Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "1262",
             "components": [
@@ -22421,343 +22421,343 @@
         "2344": {
             "link": {
                 "name": "mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2343"
         },
         "2345": {
             "link": {
                 "name": "mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2344"
         },
         "2346": {
             "link": {
                 "name": "mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2345"
         },
         "2347": {
             "link": {
                 "name": "mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2346"
         },
         "2348": {
             "link": {
                 "name": "mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2347"
         },
         "2349": {
             "link": {
                 "name": "mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2348"
         },
         "2350": {
             "link": {
                 "name": "mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2349"
         },
         "2351": {
             "link": {
                 "name": "mixamorig:HeadTop_End_end<mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2350"
         },
         "2352": {
             "link": {
                 "name": "mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2347"
         },
         "2353": {
             "link": {
                 "name": "mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2352"
         },
         "2354": {
             "link": {
                 "name": "mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2353"
         },
         "2355": {
             "link": {
                 "name": "mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2354"
         },
         "2356": {
             "link": {
                 "name": "mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2355"
         },
         "2357": {
             "link": {
                 "name": "mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2356"
         },
         "2358": {
             "link": {
                 "name": "mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2357"
         },
         "2359": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2358"
         },
         "2360": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4_end<mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2359"
         },
         "2361": {
             "link": {
                 "name": "mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2355"
         },
         "2362": {
             "link": {
                 "name": "mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2361"
         },
         "2363": {
             "link": {
                 "name": "mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2362"
         },
         "2364": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2363"
         },
         "2365": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4_end<mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2364"
         },
         "2366": {
             "link": {
                 "name": "mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2347"
         },
         "2367": {
             "link": {
                 "name": "mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2366"
         },
         "2368": {
             "link": {
                 "name": "mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2367"
         },
         "2369": {
             "link": {
                 "name": "mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2368"
         },
         "2370": {
             "link": {
                 "name": "mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2369"
         },
         "2371": {
             "link": {
                 "name": "mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2370"
         },
         "2372": {
             "link": {
                 "name": "mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2371"
         },
         "2373": {
             "link": {
                 "name": "mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2372"
         },
         "2374": {
             "link": {
                 "name": "mixamorig:RightHandThumb4_end<mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2373"
         },
         "2375": {
             "link": {
                 "name": "mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2369"
         },
         "2376": {
             "link": {
                 "name": "mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2375"
         },
         "2377": {
             "link": {
                 "name": "mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2376"
         },
         "2378": {
             "link": {
                 "name": "mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2377"
         },
         "2379": {
             "link": {
                 "name": "mixamorig:RightHandIndex4_end<mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2378"
         },
         "2380": {
             "link": {
                 "name": "mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2344"
         },
         "2381": {
             "link": {
                 "name": "mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2380"
         },
         "2382": {
             "link": {
                 "name": "mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2381"
         },
         "2383": {
             "link": {
                 "name": "mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2382"
         },
         "2384": {
             "link": {
                 "name": "mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2383"
         },
         "2385": {
             "link": {
                 "name": "mixamorig:LeftToe_End_end<mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2384"
         },
         "2386": {
             "link": {
                 "name": "mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2344"
         },
         "2387": {
             "link": {
                 "name": "mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2386"
         },
         "2388": {
             "link": {
                 "name": "mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2387"
         },
         "2389": {
             "link": {
                 "name": "mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2388"
         },
         "2390": {
             "link": {
                 "name": "mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2389"
         },
         "2391": {
             "link": {
                 "name": "mixamorig:RightToe_End_end<mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2390"
         },
         "2392": {
             "link": {
                 "name": "Cube",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "1262",
             "transformation": [
@@ -22855,7 +22855,7 @@
         "2399": {
             "link": {
                 "name": "Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2398",
             "components": [
@@ -22889,7 +22889,7 @@
         "2400": {
             "link": {
                 "name": "mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2399",
             "skin": "2451"
@@ -22897,7 +22897,7 @@
         "2401": {
             "link": {
                 "name": "mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2400",
             "skin": "2451"
@@ -22905,7 +22905,7 @@
         "2402": {
             "link": {
                 "name": "mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2401",
             "skin": "2451"
@@ -22913,7 +22913,7 @@
         "2403": {
             "link": {
                 "name": "mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2402",
             "skin": "2451"
@@ -22921,7 +22921,7 @@
         "2404": {
             "link": {
                 "name": "mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2403",
             "skin": "2451"
@@ -22929,7 +22929,7 @@
         "2405": {
             "link": {
                 "name": "mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2404",
             "skin": "2451"
@@ -22937,7 +22937,7 @@
         "2406": {
             "link": {
                 "name": "mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2405",
             "skin": "2451"
@@ -22945,14 +22945,14 @@
         "2407": {
             "link": {
                 "name": "mixamorig:HeadTop_End_end<mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2406"
         },
         "2408": {
             "link": {
                 "name": "mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2403",
             "skin": "2451"
@@ -22960,7 +22960,7 @@
         "2409": {
             "link": {
                 "name": "mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2408",
             "skin": "2451"
@@ -22968,7 +22968,7 @@
         "2410": {
             "link": {
                 "name": "mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2409",
             "skin": "2451"
@@ -22976,7 +22976,7 @@
         "2411": {
             "link": {
                 "name": "mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2410",
             "skin": "2451"
@@ -22984,7 +22984,7 @@
         "2412": {
             "link": {
                 "name": "mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2411",
             "skin": "2451"
@@ -22992,7 +22992,7 @@
         "2413": {
             "link": {
                 "name": "mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2412",
             "skin": "2451"
@@ -23000,7 +23000,7 @@
         "2414": {
             "link": {
                 "name": "mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2413",
             "skin": "2451"
@@ -23008,7 +23008,7 @@
         "2415": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2414",
             "skin": "2451"
@@ -23016,14 +23016,14 @@
         "2416": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4_end<mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2415"
         },
         "2417": {
             "link": {
                 "name": "mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2411",
             "skin": "2451"
@@ -23031,7 +23031,7 @@
         "2418": {
             "link": {
                 "name": "mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2417",
             "skin": "2451"
@@ -23039,7 +23039,7 @@
         "2419": {
             "link": {
                 "name": "mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2418",
             "skin": "2451"
@@ -23047,7 +23047,7 @@
         "2420": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2419",
             "skin": "2451"
@@ -23055,14 +23055,14 @@
         "2421": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4_end<mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2420"
         },
         "2422": {
             "link": {
                 "name": "mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2403",
             "skin": "2451"
@@ -23070,7 +23070,7 @@
         "2423": {
             "link": {
                 "name": "mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2422",
             "skin": "2451"
@@ -23078,7 +23078,7 @@
         "2424": {
             "link": {
                 "name": "mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2423",
             "skin": "2451"
@@ -23086,7 +23086,7 @@
         "2425": {
             "link": {
                 "name": "mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2424",
             "skin": "2451"
@@ -23094,7 +23094,7 @@
         "2426": {
             "link": {
                 "name": "mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2425",
             "skin": "2451"
@@ -23102,7 +23102,7 @@
         "2427": {
             "link": {
                 "name": "mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2426",
             "skin": "2451"
@@ -23110,7 +23110,7 @@
         "2428": {
             "link": {
                 "name": "mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2427",
             "skin": "2451"
@@ -23118,7 +23118,7 @@
         "2429": {
             "link": {
                 "name": "mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2428",
             "skin": "2451"
@@ -23126,14 +23126,14 @@
         "2430": {
             "link": {
                 "name": "mixamorig:RightHandThumb4_end<mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2429"
         },
         "2431": {
             "link": {
                 "name": "mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2425",
             "skin": "2451"
@@ -23141,7 +23141,7 @@
         "2432": {
             "link": {
                 "name": "mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2431",
             "skin": "2451"
@@ -23149,7 +23149,7 @@
         "2433": {
             "link": {
                 "name": "mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2432",
             "skin": "2451"
@@ -23157,7 +23157,7 @@
         "2434": {
             "link": {
                 "name": "mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2433",
             "skin": "2451"
@@ -23165,14 +23165,14 @@
         "2435": {
             "link": {
                 "name": "mixamorig:RightHandIndex4_end<mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2434"
         },
         "2436": {
             "link": {
                 "name": "mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2400",
             "skin": "2451"
@@ -23180,7 +23180,7 @@
         "2437": {
             "link": {
                 "name": "mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2436",
             "skin": "2451"
@@ -23188,7 +23188,7 @@
         "2438": {
             "link": {
                 "name": "mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2437",
             "skin": "2451"
@@ -23196,7 +23196,7 @@
         "2439": {
             "link": {
                 "name": "mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2438",
             "skin": "2451"
@@ -23204,7 +23204,7 @@
         "2440": {
             "link": {
                 "name": "mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2439",
             "skin": "2451"
@@ -23212,14 +23212,14 @@
         "2441": {
             "link": {
                 "name": "mixamorig:LeftToe_End_end<mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2440"
         },
         "2442": {
             "link": {
                 "name": "mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2400",
             "skin": "2451"
@@ -23227,7 +23227,7 @@
         "2443": {
             "link": {
                 "name": "mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2442",
             "skin": "2451"
@@ -23235,7 +23235,7 @@
         "2444": {
             "link": {
                 "name": "mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2443",
             "skin": "2451"
@@ -23243,7 +23243,7 @@
         "2445": {
             "link": {
                 "name": "mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2444",
             "skin": "2451"
@@ -23251,7 +23251,7 @@
         "2446": {
             "link": {
                 "name": "mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2445",
             "skin": "2451"
@@ -23259,14 +23259,14 @@
         "2447": {
             "link": {
                 "name": "mixamorig:RightToe_End_end<mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2446"
         },
         "2448": {
             "link": {
                 "name": "Cube",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2398",
             "transformation": [
@@ -23446,7 +23446,7 @@
         "2454": {
             "link": {
                 "name": "Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2453",
             "components": [
@@ -23481,7 +23481,7 @@
         "2455": {
             "link": {
                 "name": "mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2454",
             "skin": "2506"
@@ -23489,7 +23489,7 @@
         "2456": {
             "link": {
                 "name": "mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2455",
             "skin": "2506"
@@ -23497,7 +23497,7 @@
         "2457": {
             "link": {
                 "name": "mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2456",
             "skin": "2506"
@@ -23505,7 +23505,7 @@
         "2458": {
             "link": {
                 "name": "mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2457",
             "skin": "2506"
@@ -23513,7 +23513,7 @@
         "2459": {
             "link": {
                 "name": "mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2458",
             "skin": "2506"
@@ -23521,7 +23521,7 @@
         "2460": {
             "link": {
                 "name": "mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2459",
             "skin": "2506"
@@ -23529,7 +23529,7 @@
         "2461": {
             "link": {
                 "name": "mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2460",
             "skin": "2506"
@@ -23537,14 +23537,14 @@
         "2462": {
             "link": {
                 "name": "mixamorig:HeadTop_End_end<mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2461"
         },
         "2463": {
             "link": {
                 "name": "mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2458",
             "skin": "2506"
@@ -23552,7 +23552,7 @@
         "2464": {
             "link": {
                 "name": "mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2463",
             "skin": "2506"
@@ -23560,7 +23560,7 @@
         "2465": {
             "link": {
                 "name": "mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2464",
             "skin": "2506"
@@ -23568,7 +23568,7 @@
         "2466": {
             "link": {
                 "name": "mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2465",
             "skin": "2506"
@@ -23576,7 +23576,7 @@
         "2467": {
             "link": {
                 "name": "mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2466",
             "skin": "2506"
@@ -23584,7 +23584,7 @@
         "2468": {
             "link": {
                 "name": "mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2467",
             "skin": "2506"
@@ -23592,7 +23592,7 @@
         "2469": {
             "link": {
                 "name": "mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2468",
             "skin": "2506"
@@ -23600,7 +23600,7 @@
         "2470": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2469",
             "skin": "2506"
@@ -23608,14 +23608,14 @@
         "2471": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4_end<mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2470"
         },
         "2472": {
             "link": {
                 "name": "mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2466",
             "skin": "2506"
@@ -23623,7 +23623,7 @@
         "2473": {
             "link": {
                 "name": "mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2472",
             "skin": "2506"
@@ -23631,7 +23631,7 @@
         "2474": {
             "link": {
                 "name": "mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2473",
             "skin": "2506"
@@ -23639,7 +23639,7 @@
         "2475": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2474",
             "skin": "2506"
@@ -23647,14 +23647,14 @@
         "2476": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4_end<mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2475"
         },
         "2477": {
             "link": {
                 "name": "mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2458",
             "skin": "2506"
@@ -23662,7 +23662,7 @@
         "2478": {
             "link": {
                 "name": "mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2477",
             "skin": "2506"
@@ -23670,7 +23670,7 @@
         "2479": {
             "link": {
                 "name": "mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2478",
             "skin": "2506"
@@ -23678,7 +23678,7 @@
         "2480": {
             "link": {
                 "name": "mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2479",
             "skin": "2506"
@@ -23686,7 +23686,7 @@
         "2481": {
             "link": {
                 "name": "mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2480",
             "skin": "2506"
@@ -23694,7 +23694,7 @@
         "2482": {
             "link": {
                 "name": "mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2481",
             "skin": "2506"
@@ -23702,7 +23702,7 @@
         "2483": {
             "link": {
                 "name": "mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2482",
             "skin": "2506"
@@ -23710,7 +23710,7 @@
         "2484": {
             "link": {
                 "name": "mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2483",
             "skin": "2506"
@@ -23718,14 +23718,14 @@
         "2485": {
             "link": {
                 "name": "mixamorig:RightHandThumb4_end<mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2484"
         },
         "2486": {
             "link": {
                 "name": "mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2480",
             "skin": "2506"
@@ -23733,7 +23733,7 @@
         "2487": {
             "link": {
                 "name": "mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2486",
             "skin": "2506"
@@ -23741,7 +23741,7 @@
         "2488": {
             "link": {
                 "name": "mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2487",
             "skin": "2506"
@@ -23749,7 +23749,7 @@
         "2489": {
             "link": {
                 "name": "mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2488",
             "skin": "2506"
@@ -23757,14 +23757,14 @@
         "2490": {
             "link": {
                 "name": "mixamorig:RightHandIndex4_end<mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2489"
         },
         "2491": {
             "link": {
                 "name": "mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2455",
             "skin": "2506"
@@ -23772,7 +23772,7 @@
         "2492": {
             "link": {
                 "name": "mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2491",
             "skin": "2506"
@@ -23780,7 +23780,7 @@
         "2493": {
             "link": {
                 "name": "mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2492",
             "skin": "2506"
@@ -23788,7 +23788,7 @@
         "2494": {
             "link": {
                 "name": "mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2493",
             "skin": "2506"
@@ -23796,7 +23796,7 @@
         "2495": {
             "link": {
                 "name": "mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2494",
             "skin": "2506"
@@ -23804,14 +23804,14 @@
         "2496": {
             "link": {
                 "name": "mixamorig:LeftToe_End_end<mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2495"
         },
         "2497": {
             "link": {
                 "name": "mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2455",
             "skin": "2506"
@@ -23819,7 +23819,7 @@
         "2498": {
             "link": {
                 "name": "mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2497",
             "skin": "2506"
@@ -23827,7 +23827,7 @@
         "2499": {
             "link": {
                 "name": "mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2498",
             "skin": "2506"
@@ -23835,7 +23835,7 @@
         "2500": {
             "link": {
                 "name": "mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2499",
             "skin": "2506"
@@ -23843,7 +23843,7 @@
         "2501": {
             "link": {
                 "name": "mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2500",
             "skin": "2506"
@@ -23851,14 +23851,14 @@
         "2502": {
             "link": {
                 "name": "mixamorig:RightToe_End_end<mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2501"
         },
         "2503": {
             "link": {
                 "name": "Cube",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2453",
             "transformation": [
@@ -24039,7 +24039,7 @@
         "2509": {
             "link": {
                 "name": "Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2508",
             "components": [
@@ -24074,7 +24074,7 @@
         "2510": {
             "link": {
                 "name": "mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2509",
             "skin": "2561"
@@ -24082,7 +24082,7 @@
         "2511": {
             "link": {
                 "name": "mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2510",
             "skin": "2561"
@@ -24090,7 +24090,7 @@
         "2512": {
             "link": {
                 "name": "mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2511",
             "skin": "2561"
@@ -24098,7 +24098,7 @@
         "2513": {
             "link": {
                 "name": "mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2512",
             "skin": "2561"
@@ -24106,7 +24106,7 @@
         "2514": {
             "link": {
                 "name": "mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2513",
             "skin": "2561"
@@ -24114,7 +24114,7 @@
         "2515": {
             "link": {
                 "name": "mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2514",
             "skin": "2561"
@@ -24122,7 +24122,7 @@
         "2516": {
             "link": {
                 "name": "mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2515",
             "skin": "2561"
@@ -24130,14 +24130,14 @@
         "2517": {
             "link": {
                 "name": "mixamorig:HeadTop_End_end<mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2516"
         },
         "2518": {
             "link": {
                 "name": "mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2513",
             "skin": "2561"
@@ -24145,7 +24145,7 @@
         "2519": {
             "link": {
                 "name": "mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2518",
             "skin": "2561"
@@ -24153,7 +24153,7 @@
         "2520": {
             "link": {
                 "name": "mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2519",
             "skin": "2561"
@@ -24161,7 +24161,7 @@
         "2521": {
             "link": {
                 "name": "mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2520",
             "skin": "2561"
@@ -24169,7 +24169,7 @@
         "2522": {
             "link": {
                 "name": "mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2521",
             "skin": "2561"
@@ -24177,7 +24177,7 @@
         "2523": {
             "link": {
                 "name": "mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2522",
             "skin": "2561"
@@ -24185,7 +24185,7 @@
         "2524": {
             "link": {
                 "name": "mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2523",
             "skin": "2561"
@@ -24193,7 +24193,7 @@
         "2525": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2524",
             "skin": "2561"
@@ -24201,14 +24201,14 @@
         "2526": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4_end<mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2525"
         },
         "2527": {
             "link": {
                 "name": "mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2521",
             "skin": "2561"
@@ -24216,7 +24216,7 @@
         "2528": {
             "link": {
                 "name": "mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2527",
             "skin": "2561"
@@ -24224,7 +24224,7 @@
         "2529": {
             "link": {
                 "name": "mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2528",
             "skin": "2561"
@@ -24232,7 +24232,7 @@
         "2530": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2529",
             "skin": "2561"
@@ -24240,14 +24240,14 @@
         "2531": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4_end<mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2530"
         },
         "2532": {
             "link": {
                 "name": "mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2513",
             "skin": "2561"
@@ -24255,7 +24255,7 @@
         "2533": {
             "link": {
                 "name": "mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2532",
             "skin": "2561"
@@ -24263,7 +24263,7 @@
         "2534": {
             "link": {
                 "name": "mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2533",
             "skin": "2561"
@@ -24271,7 +24271,7 @@
         "2535": {
             "link": {
                 "name": "mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2534",
             "skin": "2561"
@@ -24279,7 +24279,7 @@
         "2536": {
             "link": {
                 "name": "mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2535",
             "skin": "2561"
@@ -24287,7 +24287,7 @@
         "2537": {
             "link": {
                 "name": "mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2536",
             "skin": "2561"
@@ -24295,7 +24295,7 @@
         "2538": {
             "link": {
                 "name": "mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2537",
             "skin": "2561"
@@ -24303,7 +24303,7 @@
         "2539": {
             "link": {
                 "name": "mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2538",
             "skin": "2561"
@@ -24311,14 +24311,14 @@
         "2540": {
             "link": {
                 "name": "mixamorig:RightHandThumb4_end<mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2539"
         },
         "2541": {
             "link": {
                 "name": "mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2535",
             "skin": "2561"
@@ -24326,7 +24326,7 @@
         "2542": {
             "link": {
                 "name": "mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2541",
             "skin": "2561"
@@ -24334,7 +24334,7 @@
         "2543": {
             "link": {
                 "name": "mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2542",
             "skin": "2561"
@@ -24342,7 +24342,7 @@
         "2544": {
             "link": {
                 "name": "mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2543",
             "skin": "2561"
@@ -24350,14 +24350,14 @@
         "2545": {
             "link": {
                 "name": "mixamorig:RightHandIndex4_end<mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2544"
         },
         "2546": {
             "link": {
                 "name": "mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2510",
             "skin": "2561"
@@ -24365,7 +24365,7 @@
         "2547": {
             "link": {
                 "name": "mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2546",
             "skin": "2561"
@@ -24373,7 +24373,7 @@
         "2548": {
             "link": {
                 "name": "mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2547",
             "skin": "2561"
@@ -24381,7 +24381,7 @@
         "2549": {
             "link": {
                 "name": "mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2548",
             "skin": "2561"
@@ -24389,7 +24389,7 @@
         "2550": {
             "link": {
                 "name": "mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2549",
             "skin": "2561"
@@ -24397,14 +24397,14 @@
         "2551": {
             "link": {
                 "name": "mixamorig:LeftToe_End_end<mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2550"
         },
         "2552": {
             "link": {
                 "name": "mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2510",
             "skin": "2561"
@@ -24412,7 +24412,7 @@
         "2553": {
             "link": {
                 "name": "mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2552",
             "skin": "2561"
@@ -24420,7 +24420,7 @@
         "2554": {
             "link": {
                 "name": "mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2553",
             "skin": "2561"
@@ -24428,7 +24428,7 @@
         "2555": {
             "link": {
                 "name": "mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2554",
             "skin": "2561"
@@ -24436,7 +24436,7 @@
         "2556": {
             "link": {
                 "name": "mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2555",
             "skin": "2561"
@@ -24444,14 +24444,14 @@
         "2557": {
             "link": {
                 "name": "mixamorig:RightToe_End_end<mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2556"
         },
         "2558": {
             "link": {
                 "name": "Cube",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2508",
             "transformation": [
@@ -24836,7 +24836,7 @@
         "2576": {
             "link": {
                 "name": "Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2575",
             "components": [
@@ -24871,7 +24871,7 @@
         "2577": {
             "link": {
                 "name": "mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2576",
             "skin": "2628"
@@ -24879,7 +24879,7 @@
         "2578": {
             "link": {
                 "name": "mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2577",
             "skin": "2628"
@@ -24887,7 +24887,7 @@
         "2579": {
             "link": {
                 "name": "mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2578",
             "skin": "2628"
@@ -24895,7 +24895,7 @@
         "2580": {
             "link": {
                 "name": "mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2579",
             "skin": "2628"
@@ -24903,7 +24903,7 @@
         "2581": {
             "link": {
                 "name": "mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2580",
             "skin": "2628"
@@ -24911,7 +24911,7 @@
         "2582": {
             "link": {
                 "name": "mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2581",
             "skin": "2628"
@@ -24919,7 +24919,7 @@
         "2583": {
             "link": {
                 "name": "mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2582",
             "skin": "2628"
@@ -24927,14 +24927,14 @@
         "2584": {
             "link": {
                 "name": "mixamorig:HeadTop_End_end<mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2583"
         },
         "2585": {
             "link": {
                 "name": "mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2580",
             "skin": "2628"
@@ -24942,7 +24942,7 @@
         "2586": {
             "link": {
                 "name": "mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2585",
             "skin": "2628"
@@ -24950,7 +24950,7 @@
         "2587": {
             "link": {
                 "name": "mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2586",
             "skin": "2628"
@@ -24958,7 +24958,7 @@
         "2588": {
             "link": {
                 "name": "mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2587",
             "skin": "2628"
@@ -24966,7 +24966,7 @@
         "2589": {
             "link": {
                 "name": "mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2588",
             "skin": "2628"
@@ -24974,7 +24974,7 @@
         "2590": {
             "link": {
                 "name": "mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2589",
             "skin": "2628"
@@ -24982,7 +24982,7 @@
         "2591": {
             "link": {
                 "name": "mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2590",
             "skin": "2628"
@@ -24990,7 +24990,7 @@
         "2592": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2591",
             "skin": "2628"
@@ -24998,14 +24998,14 @@
         "2593": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4_end<mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2592"
         },
         "2594": {
             "link": {
                 "name": "mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2588",
             "skin": "2628"
@@ -25013,7 +25013,7 @@
         "2595": {
             "link": {
                 "name": "mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2594",
             "skin": "2628"
@@ -25021,7 +25021,7 @@
         "2596": {
             "link": {
                 "name": "mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2595",
             "skin": "2628"
@@ -25029,7 +25029,7 @@
         "2597": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2596",
             "skin": "2628"
@@ -25037,14 +25037,14 @@
         "2598": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4_end<mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2597"
         },
         "2599": {
             "link": {
                 "name": "mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2580",
             "skin": "2628"
@@ -25052,7 +25052,7 @@
         "2600": {
             "link": {
                 "name": "mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2599",
             "skin": "2628"
@@ -25060,7 +25060,7 @@
         "2601": {
             "link": {
                 "name": "mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2600",
             "skin": "2628"
@@ -25068,7 +25068,7 @@
         "2602": {
             "link": {
                 "name": "mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2601",
             "skin": "2628"
@@ -25076,7 +25076,7 @@
         "2603": {
             "link": {
                 "name": "mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2602",
             "skin": "2628"
@@ -25084,7 +25084,7 @@
         "2604": {
             "link": {
                 "name": "mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2603",
             "skin": "2628"
@@ -25092,7 +25092,7 @@
         "2605": {
             "link": {
                 "name": "mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2604",
             "skin": "2628"
@@ -25100,7 +25100,7 @@
         "2606": {
             "link": {
                 "name": "mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2605",
             "skin": "2628"
@@ -25108,14 +25108,14 @@
         "2607": {
             "link": {
                 "name": "mixamorig:RightHandThumb4_end<mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2606"
         },
         "2608": {
             "link": {
                 "name": "mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2602",
             "skin": "2628"
@@ -25123,7 +25123,7 @@
         "2609": {
             "link": {
                 "name": "mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2608",
             "skin": "2628"
@@ -25131,7 +25131,7 @@
         "2610": {
             "link": {
                 "name": "mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2609",
             "skin": "2628"
@@ -25139,7 +25139,7 @@
         "2611": {
             "link": {
                 "name": "mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2610",
             "skin": "2628"
@@ -25147,14 +25147,14 @@
         "2612": {
             "link": {
                 "name": "mixamorig:RightHandIndex4_end<mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2611"
         },
         "2613": {
             "link": {
                 "name": "mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2577",
             "skin": "2628"
@@ -25162,7 +25162,7 @@
         "2614": {
             "link": {
                 "name": "mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2613",
             "skin": "2628"
@@ -25170,7 +25170,7 @@
         "2615": {
             "link": {
                 "name": "mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2614",
             "skin": "2628"
@@ -25178,7 +25178,7 @@
         "2616": {
             "link": {
                 "name": "mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2615",
             "skin": "2628"
@@ -25186,7 +25186,7 @@
         "2617": {
             "link": {
                 "name": "mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2616",
             "skin": "2628"
@@ -25194,14 +25194,14 @@
         "2618": {
             "link": {
                 "name": "mixamorig:LeftToe_End_end<mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2617"
         },
         "2619": {
             "link": {
                 "name": "mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2577",
             "skin": "2628"
@@ -25209,7 +25209,7 @@
         "2620": {
             "link": {
                 "name": "mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2619",
             "skin": "2628"
@@ -25217,7 +25217,7 @@
         "2621": {
             "link": {
                 "name": "mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2620",
             "skin": "2628"
@@ -25225,7 +25225,7 @@
         "2622": {
             "link": {
                 "name": "mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2621",
             "skin": "2628"
@@ -25233,7 +25233,7 @@
         "2623": {
             "link": {
                 "name": "mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2622",
             "skin": "2628"
@@ -25241,14 +25241,14 @@
         "2624": {
             "link": {
                 "name": "mixamorig:RightToe_End_end<mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2623"
         },
         "2625": {
             "link": {
                 "name": "Cube",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2575",
             "transformation": [
@@ -25429,7 +25429,7 @@
         "2631": {
             "link": {
                 "name": "Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2630",
             "components": [
@@ -25464,7 +25464,7 @@
         "2632": {
             "link": {
                 "name": "mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2631",
             "skin": "2683"
@@ -25472,7 +25472,7 @@
         "2633": {
             "link": {
                 "name": "mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2632",
             "skin": "2683"
@@ -25480,7 +25480,7 @@
         "2634": {
             "link": {
                 "name": "mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2633",
             "skin": "2683"
@@ -25488,7 +25488,7 @@
         "2635": {
             "link": {
                 "name": "mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2634",
             "skin": "2683"
@@ -25496,7 +25496,7 @@
         "2636": {
             "link": {
                 "name": "mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2635",
             "skin": "2683"
@@ -25504,7 +25504,7 @@
         "2637": {
             "link": {
                 "name": "mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2636",
             "skin": "2683"
@@ -25512,7 +25512,7 @@
         "2638": {
             "link": {
                 "name": "mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2637",
             "skin": "2683"
@@ -25520,14 +25520,14 @@
         "2639": {
             "link": {
                 "name": "mixamorig:HeadTop_End_end<mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2638"
         },
         "2640": {
             "link": {
                 "name": "mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2635",
             "skin": "2683"
@@ -25535,7 +25535,7 @@
         "2641": {
             "link": {
                 "name": "mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2640",
             "skin": "2683"
@@ -25543,7 +25543,7 @@
         "2642": {
             "link": {
                 "name": "mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2641",
             "skin": "2683"
@@ -25551,7 +25551,7 @@
         "2643": {
             "link": {
                 "name": "mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2642",
             "skin": "2683"
@@ -25559,7 +25559,7 @@
         "2644": {
             "link": {
                 "name": "mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2643",
             "skin": "2683"
@@ -25567,7 +25567,7 @@
         "2645": {
             "link": {
                 "name": "mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2644",
             "skin": "2683"
@@ -25575,7 +25575,7 @@
         "2646": {
             "link": {
                 "name": "mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2645",
             "skin": "2683"
@@ -25583,7 +25583,7 @@
         "2647": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2646",
             "skin": "2683"
@@ -25591,14 +25591,14 @@
         "2648": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4_end<mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2647"
         },
         "2649": {
             "link": {
                 "name": "mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2643",
             "skin": "2683"
@@ -25606,7 +25606,7 @@
         "2650": {
             "link": {
                 "name": "mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2649",
             "skin": "2683"
@@ -25614,7 +25614,7 @@
         "2651": {
             "link": {
                 "name": "mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2650",
             "skin": "2683"
@@ -25622,7 +25622,7 @@
         "2652": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2651",
             "skin": "2683"
@@ -25630,14 +25630,14 @@
         "2653": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4_end<mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2652"
         },
         "2654": {
             "link": {
                 "name": "mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2635",
             "skin": "2683"
@@ -25645,7 +25645,7 @@
         "2655": {
             "link": {
                 "name": "mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2654",
             "skin": "2683"
@@ -25653,7 +25653,7 @@
         "2656": {
             "link": {
                 "name": "mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2655",
             "skin": "2683"
@@ -25661,7 +25661,7 @@
         "2657": {
             "link": {
                 "name": "mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2656",
             "skin": "2683"
@@ -25669,7 +25669,7 @@
         "2658": {
             "link": {
                 "name": "mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2657",
             "skin": "2683"
@@ -25677,7 +25677,7 @@
         "2659": {
             "link": {
                 "name": "mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2658",
             "skin": "2683"
@@ -25685,7 +25685,7 @@
         "2660": {
             "link": {
                 "name": "mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2659",
             "skin": "2683"
@@ -25693,7 +25693,7 @@
         "2661": {
             "link": {
                 "name": "mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2660",
             "skin": "2683"
@@ -25701,14 +25701,14 @@
         "2662": {
             "link": {
                 "name": "mixamorig:RightHandThumb4_end<mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2661"
         },
         "2663": {
             "link": {
                 "name": "mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2657",
             "skin": "2683"
@@ -25716,7 +25716,7 @@
         "2664": {
             "link": {
                 "name": "mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2663",
             "skin": "2683"
@@ -25724,7 +25724,7 @@
         "2665": {
             "link": {
                 "name": "mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2664",
             "skin": "2683"
@@ -25732,7 +25732,7 @@
         "2666": {
             "link": {
                 "name": "mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2665",
             "skin": "2683"
@@ -25740,14 +25740,14 @@
         "2667": {
             "link": {
                 "name": "mixamorig:RightHandIndex4_end<mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2666"
         },
         "2668": {
             "link": {
                 "name": "mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2632",
             "skin": "2683"
@@ -25755,7 +25755,7 @@
         "2669": {
             "link": {
                 "name": "mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2668",
             "skin": "2683"
@@ -25763,7 +25763,7 @@
         "2670": {
             "link": {
                 "name": "mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2669",
             "skin": "2683"
@@ -25771,7 +25771,7 @@
         "2671": {
             "link": {
                 "name": "mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2670",
             "skin": "2683"
@@ -25779,7 +25779,7 @@
         "2672": {
             "link": {
                 "name": "mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2671",
             "skin": "2683"
@@ -25787,14 +25787,14 @@
         "2673": {
             "link": {
                 "name": "mixamorig:LeftToe_End_end<mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2672"
         },
         "2674": {
             "link": {
                 "name": "mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2632",
             "skin": "2683"
@@ -25802,7 +25802,7 @@
         "2675": {
             "link": {
                 "name": "mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2674",
             "skin": "2683"
@@ -25810,7 +25810,7 @@
         "2676": {
             "link": {
                 "name": "mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2675",
             "skin": "2683"
@@ -25818,7 +25818,7 @@
         "2677": {
             "link": {
                 "name": "mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2676",
             "skin": "2683"
@@ -25826,7 +25826,7 @@
         "2678": {
             "link": {
                 "name": "mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2677",
             "skin": "2683"
@@ -25834,14 +25834,14 @@
         "2679": {
             "link": {
                 "name": "mixamorig:RightToe_End_end<mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2678"
         },
         "2680": {
             "link": {
                 "name": "Cube",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2630",
             "transformation": [
@@ -26022,7 +26022,7 @@
         "2686": {
             "link": {
                 "name": "Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2685",
             "components": [
@@ -26057,7 +26057,7 @@
         "2687": {
             "link": {
                 "name": "mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2686",
             "skin": "2738"
@@ -26065,7 +26065,7 @@
         "2688": {
             "link": {
                 "name": "mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2687",
             "skin": "2738"
@@ -26073,7 +26073,7 @@
         "2689": {
             "link": {
                 "name": "mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2688",
             "skin": "2738"
@@ -26081,7 +26081,7 @@
         "2690": {
             "link": {
                 "name": "mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2689",
             "skin": "2738"
@@ -26089,7 +26089,7 @@
         "2691": {
             "link": {
                 "name": "mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2690",
             "skin": "2738"
@@ -26097,7 +26097,7 @@
         "2692": {
             "link": {
                 "name": "mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2691",
             "skin": "2738"
@@ -26105,7 +26105,7 @@
         "2693": {
             "link": {
                 "name": "mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2692",
             "skin": "2738"
@@ -26113,14 +26113,14 @@
         "2694": {
             "link": {
                 "name": "mixamorig:HeadTop_End_end<mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2693"
         },
         "2695": {
             "link": {
                 "name": "mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2690",
             "skin": "2738"
@@ -26128,7 +26128,7 @@
         "2696": {
             "link": {
                 "name": "mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2695",
             "skin": "2738"
@@ -26136,7 +26136,7 @@
         "2697": {
             "link": {
                 "name": "mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2696",
             "skin": "2738"
@@ -26144,7 +26144,7 @@
         "2698": {
             "link": {
                 "name": "mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2697",
             "skin": "2738"
@@ -26152,7 +26152,7 @@
         "2699": {
             "link": {
                 "name": "mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2698",
             "skin": "2738"
@@ -26160,7 +26160,7 @@
         "2700": {
             "link": {
                 "name": "mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2699",
             "skin": "2738"
@@ -26168,7 +26168,7 @@
         "2701": {
             "link": {
                 "name": "mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2700",
             "skin": "2738"
@@ -26176,7 +26176,7 @@
         "2702": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2701",
             "skin": "2738"
@@ -26184,14 +26184,14 @@
         "2703": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4_end<mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2702"
         },
         "2704": {
             "link": {
                 "name": "mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2698",
             "skin": "2738"
@@ -26199,7 +26199,7 @@
         "2705": {
             "link": {
                 "name": "mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2704",
             "skin": "2738"
@@ -26207,7 +26207,7 @@
         "2706": {
             "link": {
                 "name": "mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2705",
             "skin": "2738"
@@ -26215,7 +26215,7 @@
         "2707": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2706",
             "skin": "2738"
@@ -26223,14 +26223,14 @@
         "2708": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4_end<mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2707"
         },
         "2709": {
             "link": {
                 "name": "mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2690",
             "skin": "2738"
@@ -26238,7 +26238,7 @@
         "2710": {
             "link": {
                 "name": "mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2709",
             "skin": "2738"
@@ -26246,7 +26246,7 @@
         "2711": {
             "link": {
                 "name": "mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2710",
             "skin": "2738"
@@ -26254,7 +26254,7 @@
         "2712": {
             "link": {
                 "name": "mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2711",
             "skin": "2738"
@@ -26262,7 +26262,7 @@
         "2713": {
             "link": {
                 "name": "mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2712",
             "skin": "2738"
@@ -26270,7 +26270,7 @@
         "2714": {
             "link": {
                 "name": "mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2713",
             "skin": "2738"
@@ -26278,7 +26278,7 @@
         "2715": {
             "link": {
                 "name": "mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2714",
             "skin": "2738"
@@ -26286,7 +26286,7 @@
         "2716": {
             "link": {
                 "name": "mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2715",
             "skin": "2738"
@@ -26294,14 +26294,14 @@
         "2717": {
             "link": {
                 "name": "mixamorig:RightHandThumb4_end<mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2716"
         },
         "2718": {
             "link": {
                 "name": "mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2712",
             "skin": "2738"
@@ -26309,7 +26309,7 @@
         "2719": {
             "link": {
                 "name": "mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2718",
             "skin": "2738"
@@ -26317,7 +26317,7 @@
         "2720": {
             "link": {
                 "name": "mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2719",
             "skin": "2738"
@@ -26325,7 +26325,7 @@
         "2721": {
             "link": {
                 "name": "mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2720",
             "skin": "2738"
@@ -26333,14 +26333,14 @@
         "2722": {
             "link": {
                 "name": "mixamorig:RightHandIndex4_end<mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2721"
         },
         "2723": {
             "link": {
                 "name": "mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2687",
             "skin": "2738"
@@ -26348,7 +26348,7 @@
         "2724": {
             "link": {
                 "name": "mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2723",
             "skin": "2738"
@@ -26356,7 +26356,7 @@
         "2725": {
             "link": {
                 "name": "mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2724",
             "skin": "2738"
@@ -26364,7 +26364,7 @@
         "2726": {
             "link": {
                 "name": "mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2725",
             "skin": "2738"
@@ -26372,7 +26372,7 @@
         "2727": {
             "link": {
                 "name": "mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2726",
             "skin": "2738"
@@ -26380,14 +26380,14 @@
         "2728": {
             "link": {
                 "name": "mixamorig:LeftToe_End_end<mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2727"
         },
         "2729": {
             "link": {
                 "name": "mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2687",
             "skin": "2738"
@@ -26395,7 +26395,7 @@
         "2730": {
             "link": {
                 "name": "mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2729",
             "skin": "2738"
@@ -26403,7 +26403,7 @@
         "2731": {
             "link": {
                 "name": "mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2730",
             "skin": "2738"
@@ -26411,7 +26411,7 @@
         "2732": {
             "link": {
                 "name": "mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2731",
             "skin": "2738"
@@ -26419,7 +26419,7 @@
         "2733": {
             "link": {
                 "name": "mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2732",
             "skin": "2738"
@@ -26427,14 +26427,14 @@
         "2734": {
             "link": {
                 "name": "mixamorig:RightToe_End_end<mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2733"
         },
         "2735": {
             "link": {
                 "name": "Cube",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2685",
             "transformation": [
@@ -26615,7 +26615,7 @@
         "2741": {
             "link": {
                 "name": "Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2740",
             "components": [
@@ -26650,7 +26650,7 @@
         "2742": {
             "link": {
                 "name": "mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2741",
             "skin": "2793"
@@ -26658,7 +26658,7 @@
         "2743": {
             "link": {
                 "name": "mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2742",
             "skin": "2793"
@@ -26666,7 +26666,7 @@
         "2744": {
             "link": {
                 "name": "mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2743",
             "skin": "2793"
@@ -26674,7 +26674,7 @@
         "2745": {
             "link": {
                 "name": "mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2744",
             "skin": "2793"
@@ -26682,7 +26682,7 @@
         "2746": {
             "link": {
                 "name": "mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2745",
             "skin": "2793"
@@ -26690,7 +26690,7 @@
         "2747": {
             "link": {
                 "name": "mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2746",
             "skin": "2793"
@@ -26698,7 +26698,7 @@
         "2748": {
             "link": {
                 "name": "mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2747",
             "skin": "2793"
@@ -26706,14 +26706,14 @@
         "2749": {
             "link": {
                 "name": "mixamorig:HeadTop_End_end<mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2748"
         },
         "2750": {
             "link": {
                 "name": "mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2745",
             "skin": "2793"
@@ -26721,7 +26721,7 @@
         "2751": {
             "link": {
                 "name": "mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2750",
             "skin": "2793"
@@ -26729,7 +26729,7 @@
         "2752": {
             "link": {
                 "name": "mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2751",
             "skin": "2793"
@@ -26737,7 +26737,7 @@
         "2753": {
             "link": {
                 "name": "mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2752",
             "skin": "2793"
@@ -26745,7 +26745,7 @@
         "2754": {
             "link": {
                 "name": "mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2753",
             "skin": "2793"
@@ -26753,7 +26753,7 @@
         "2755": {
             "link": {
                 "name": "mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2754",
             "skin": "2793"
@@ -26761,7 +26761,7 @@
         "2756": {
             "link": {
                 "name": "mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2755",
             "skin": "2793"
@@ -26769,7 +26769,7 @@
         "2757": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2756",
             "skin": "2793"
@@ -26777,14 +26777,14 @@
         "2758": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4_end<mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2757"
         },
         "2759": {
             "link": {
                 "name": "mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2753",
             "skin": "2793"
@@ -26792,7 +26792,7 @@
         "2760": {
             "link": {
                 "name": "mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2759",
             "skin": "2793"
@@ -26800,7 +26800,7 @@
         "2761": {
             "link": {
                 "name": "mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2760",
             "skin": "2793"
@@ -26808,7 +26808,7 @@
         "2762": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2761",
             "skin": "2793"
@@ -26816,14 +26816,14 @@
         "2763": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4_end<mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2762"
         },
         "2764": {
             "link": {
                 "name": "mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2745",
             "skin": "2793"
@@ -26831,7 +26831,7 @@
         "2765": {
             "link": {
                 "name": "mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2764",
             "skin": "2793"
@@ -26839,7 +26839,7 @@
         "2766": {
             "link": {
                 "name": "mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2765",
             "skin": "2793"
@@ -26847,7 +26847,7 @@
         "2767": {
             "link": {
                 "name": "mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2766",
             "skin": "2793"
@@ -26855,7 +26855,7 @@
         "2768": {
             "link": {
                 "name": "mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2767",
             "skin": "2793"
@@ -26863,7 +26863,7 @@
         "2769": {
             "link": {
                 "name": "mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2768",
             "skin": "2793"
@@ -26871,7 +26871,7 @@
         "2770": {
             "link": {
                 "name": "mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2769",
             "skin": "2793"
@@ -26879,7 +26879,7 @@
         "2771": {
             "link": {
                 "name": "mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2770",
             "skin": "2793"
@@ -26887,14 +26887,14 @@
         "2772": {
             "link": {
                 "name": "mixamorig:RightHandThumb4_end<mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2771"
         },
         "2773": {
             "link": {
                 "name": "mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2767",
             "skin": "2793"
@@ -26902,7 +26902,7 @@
         "2774": {
             "link": {
                 "name": "mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2773",
             "skin": "2793"
@@ -26910,7 +26910,7 @@
         "2775": {
             "link": {
                 "name": "mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2774",
             "skin": "2793"
@@ -26918,7 +26918,7 @@
         "2776": {
             "link": {
                 "name": "mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2775",
             "skin": "2793"
@@ -26926,14 +26926,14 @@
         "2777": {
             "link": {
                 "name": "mixamorig:RightHandIndex4_end<mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2776"
         },
         "2778": {
             "link": {
                 "name": "mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2742",
             "skin": "2793"
@@ -26941,7 +26941,7 @@
         "2779": {
             "link": {
                 "name": "mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2778",
             "skin": "2793"
@@ -26949,7 +26949,7 @@
         "2780": {
             "link": {
                 "name": "mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2779",
             "skin": "2793"
@@ -26957,7 +26957,7 @@
         "2781": {
             "link": {
                 "name": "mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2780",
             "skin": "2793"
@@ -26965,7 +26965,7 @@
         "2782": {
             "link": {
                 "name": "mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2781",
             "skin": "2793"
@@ -26973,14 +26973,14 @@
         "2783": {
             "link": {
                 "name": "mixamorig:LeftToe_End_end<mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2782"
         },
         "2784": {
             "link": {
                 "name": "mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2742",
             "skin": "2793"
@@ -26988,7 +26988,7 @@
         "2785": {
             "link": {
                 "name": "mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2784",
             "skin": "2793"
@@ -26996,7 +26996,7 @@
         "2786": {
             "link": {
                 "name": "mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2785",
             "skin": "2793"
@@ -27004,7 +27004,7 @@
         "2787": {
             "link": {
                 "name": "mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2786",
             "skin": "2793"
@@ -27012,7 +27012,7 @@
         "2788": {
             "link": {
                 "name": "mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2787",
             "skin": "2793"
@@ -27020,14 +27020,14 @@
         "2789": {
             "link": {
                 "name": "mixamorig:RightToe_End_end<mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2788"
         },
         "2790": {
             "link": {
                 "name": "Cube",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2740",
             "transformation": [
@@ -27210,7 +27210,7 @@
         "2796": {
             "link": {
                 "name": "Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2795",
             "components": [
@@ -27246,7 +27246,7 @@
         "2797": {
             "link": {
                 "name": "mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2796",
             "skin": "2848",
@@ -27255,7 +27255,7 @@
         "2798": {
             "link": {
                 "name": "mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2797",
             "skin": "2848",
@@ -27264,7 +27264,7 @@
         "2799": {
             "link": {
                 "name": "mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2798",
             "skin": "2848",
@@ -27273,7 +27273,7 @@
         "2800": {
             "link": {
                 "name": "mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2799",
             "skin": "2848",
@@ -27282,7 +27282,7 @@
         "2801": {
             "link": {
                 "name": "mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2800",
             "skin": "2848",
@@ -27291,7 +27291,7 @@
         "2802": {
             "link": {
                 "name": "mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2801",
             "skin": "2848",
@@ -27300,7 +27300,7 @@
         "2803": {
             "link": {
                 "name": "mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2802",
             "skin": "2848",
@@ -27309,7 +27309,7 @@
         "2804": {
             "link": {
                 "name": "mixamorig:HeadTop_End_end<mixamorig:HeadTop_End<mixamorig:Head<mixamorig:Neck<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2803",
             "deleted": true
@@ -27317,7 +27317,7 @@
         "2805": {
             "link": {
                 "name": "mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2800",
             "skin": "2848",
@@ -27326,7 +27326,7 @@
         "2806": {
             "link": {
                 "name": "mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2805",
             "skin": "2848",
@@ -27335,7 +27335,7 @@
         "2807": {
             "link": {
                 "name": "mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2806",
             "skin": "2848",
@@ -27344,7 +27344,7 @@
         "2808": {
             "link": {
                 "name": "mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2807",
             "skin": "2848",
@@ -27353,7 +27353,7 @@
         "2809": {
             "link": {
                 "name": "mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2808",
             "skin": "2848",
@@ -27362,7 +27362,7 @@
         "2810": {
             "link": {
                 "name": "mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2809",
             "skin": "2848",
@@ -27371,7 +27371,7 @@
         "2811": {
             "link": {
                 "name": "mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2810",
             "skin": "2848",
@@ -27380,7 +27380,7 @@
         "2812": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2811",
             "skin": "2848",
@@ -27389,7 +27389,7 @@
         "2813": {
             "link": {
                 "name": "mixamorig:LeftHandThumb4_end<mixamorig:LeftHandThumb4<mixamorig:LeftHandThumb3<mixamorig:LeftHandThumb2<mixamorig:LeftHandThumb1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2812",
             "deleted": true
@@ -27397,7 +27397,7 @@
         "2814": {
             "link": {
                 "name": "mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2808",
             "skin": "2848",
@@ -27406,7 +27406,7 @@
         "2815": {
             "link": {
                 "name": "mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2814",
             "skin": "2848",
@@ -27415,7 +27415,7 @@
         "2816": {
             "link": {
                 "name": "mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2815",
             "skin": "2848",
@@ -27424,7 +27424,7 @@
         "2817": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2816",
             "skin": "2848",
@@ -27433,7 +27433,7 @@
         "2818": {
             "link": {
                 "name": "mixamorig:LeftHandIndex4_end<mixamorig:LeftHandIndex4<mixamorig:LeftHandIndex3<mixamorig:LeftHandIndex2<mixamorig:LeftHandIndex1<mixamorig:LeftHand<mixamorig:LeftForeArm<mixamorig:LeftArm<mixamorig:LeftShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2817",
             "deleted": true
@@ -27441,7 +27441,7 @@
         "2819": {
             "link": {
                 "name": "mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2800",
             "skin": "2848",
@@ -27450,7 +27450,7 @@
         "2820": {
             "link": {
                 "name": "mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2819",
             "skin": "2848",
@@ -27459,7 +27459,7 @@
         "2821": {
             "link": {
                 "name": "mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2820",
             "skin": "2848",
@@ -27468,7 +27468,7 @@
         "2822": {
             "link": {
                 "name": "mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2821",
             "skin": "2848",
@@ -27477,7 +27477,7 @@
         "2823": {
             "link": {
                 "name": "mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2822",
             "skin": "2848",
@@ -27486,7 +27486,7 @@
         "2824": {
             "link": {
                 "name": "mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2823",
             "skin": "2848",
@@ -27495,7 +27495,7 @@
         "2825": {
             "link": {
                 "name": "mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2824",
             "skin": "2848",
@@ -27504,7 +27504,7 @@
         "2826": {
             "link": {
                 "name": "mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2825",
             "skin": "2848",
@@ -27513,7 +27513,7 @@
         "2827": {
             "link": {
                 "name": "mixamorig:RightHandThumb4_end<mixamorig:RightHandThumb4<mixamorig:RightHandThumb3<mixamorig:RightHandThumb2<mixamorig:RightHandThumb1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2826",
             "deleted": true
@@ -27521,7 +27521,7 @@
         "2828": {
             "link": {
                 "name": "mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2822",
             "skin": "2848",
@@ -27530,7 +27530,7 @@
         "2829": {
             "link": {
                 "name": "mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2828",
             "skin": "2848",
@@ -27539,7 +27539,7 @@
         "2830": {
             "link": {
                 "name": "mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2829",
             "skin": "2848",
@@ -27548,7 +27548,7 @@
         "2831": {
             "link": {
                 "name": "mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2830",
             "skin": "2848",
@@ -27557,7 +27557,7 @@
         "2832": {
             "link": {
                 "name": "mixamorig:RightHandIndex4_end<mixamorig:RightHandIndex4<mixamorig:RightHandIndex3<mixamorig:RightHandIndex2<mixamorig:RightHandIndex1<mixamorig:RightHand<mixamorig:RightForeArm<mixamorig:RightArm<mixamorig:RightShoulder<mixamorig:Spine2<mixamorig:Spine1<mixamorig:Spine<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2831",
             "deleted": true
@@ -27565,7 +27565,7 @@
         "2833": {
             "link": {
                 "name": "mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2797",
             "skin": "2848",
@@ -27574,7 +27574,7 @@
         "2834": {
             "link": {
                 "name": "mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2833",
             "skin": "2848",
@@ -27583,7 +27583,7 @@
         "2835": {
             "link": {
                 "name": "mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2834",
             "skin": "2848",
@@ -27592,7 +27592,7 @@
         "2836": {
             "link": {
                 "name": "mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2835",
             "skin": "2848",
@@ -27601,7 +27601,7 @@
         "2837": {
             "link": {
                 "name": "mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2836",
             "skin": "2848",
@@ -27610,7 +27610,7 @@
         "2838": {
             "link": {
                 "name": "mixamorig:LeftToe_End_end<mixamorig:LeftToe_End<mixamorig:LeftToeBase<mixamorig:LeftFoot<mixamorig:LeftLeg<mixamorig:LeftUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2837",
             "deleted": true
@@ -27618,7 +27618,7 @@
         "2839": {
             "link": {
                 "name": "mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2797",
             "skin": "2848",
@@ -27627,7 +27627,7 @@
         "2840": {
             "link": {
                 "name": "mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2839",
             "skin": "2848",
@@ -27636,7 +27636,7 @@
         "2841": {
             "link": {
                 "name": "mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2840",
             "skin": "2848",
@@ -27645,7 +27645,7 @@
         "2842": {
             "link": {
                 "name": "mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2841",
             "skin": "2848",
@@ -27654,7 +27654,7 @@
         "2843": {
             "link": {
                 "name": "mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2842",
             "skin": "2848",
@@ -27663,7 +27663,7 @@
         "2844": {
             "link": {
                 "name": "mixamorig:RightToe_End_end<mixamorig:RightToe_End<mixamorig:RightToeBase<mixamorig:RightFoot<mixamorig:RightLeg<mixamorig:RightUpLeg<mixamorig:Hips<Zombie",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2843",
             "deleted": true
@@ -27671,7 +27671,7 @@
         "2845": {
             "link": {
                 "name": "Cube",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "parent": "2795",
             "transformation": [
@@ -28220,7 +28220,7 @@
         "2341": {
             "link": {
                 "name": "Cube.001",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             }
         }
     },
@@ -28374,7 +28374,7 @@
         "2339": {
             "link": {
                 "name": "texture_0",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             }
         }
     },
@@ -29030,7 +29030,7 @@
         "2340": {
             "link": {
                 "name": "Material.001",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "Phong": {
                 "shininess": 1,
@@ -29232,25 +29232,25 @@
         "2393": {
             "link": {
                 "name": "Zombie|01_Walk",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             }
         },
         "2394": {
             "link": {
                 "name": "Zombie|02_Death",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             }
         },
         "2395": {
             "link": {
                 "name": "Zombie|03_Attack",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             }
         },
         "2396": {
             "link": {
                 "name": "Zombie|Armature.003|mixamo.com|Layer0",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             }
         }
     },
@@ -29966,14 +29966,14 @@
         "2342": {
             "link": {
                 "name": "skin_27",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "name": "ZombieSkin01"
         },
         "2451": {
             "link": {
                 "name": "skin_27",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "joints": [
                 "2400",
@@ -30023,7 +30023,7 @@
         "2506": {
             "link": {
                 "name": "skin_27",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "joints": [
                 "2455",
@@ -30073,7 +30073,7 @@
         "2561": {
             "link": {
                 "name": "skin_27",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "joints": [
                 "2510",
@@ -30123,7 +30123,7 @@
         "2628": {
             "link": {
                 "name": "skin_27",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "joints": [
                 "2577",
@@ -30173,7 +30173,7 @@
         "2683": {
             "link": {
                 "name": "skin_27",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "joints": [
                 "2632",
@@ -30223,7 +30223,7 @@
         "2738": {
             "link": {
                 "name": "skin_27",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "joints": [
                 "2687",
@@ -30273,7 +30273,7 @@
         "2793": {
             "link": {
                 "name": "skin_27",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "joints": [
                 "2742",
@@ -30323,7 +30323,7 @@
         "2848": {
             "link": {
                 "name": "skin_27",
-                "file": "Assets\\Zombie.fbx"
+                "file": "assets\\Zombie.fbx"
             },
             "joints": [
                 "2797",
@@ -30433,6 +30433,6 @@
         "assets/zombie.png",
         "assets/Zombie.glb",
         "assets/pistol.glb",
-        "Assets/Zombie.fbx"
+        "assets/Zombie.fbx"
     ]
 }

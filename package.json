@@ -1,0 +1,29 @@
+{
+  "name": "HouseOfTheDead",
+  "version": "1.0.0",
+  "description": "Sorskoot's House Of The Dead\r ============================",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorskoot/HouseOfTheDead.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sorskoot/HouseOfTheDead/issues"
+  },
+  "homepage": "https://github.com/sorskoot/HouseOfTheDead#readme",
+  "scripts": {
+    "build": "esbuild bundle.js --sourcemap --bundle --outfile=deploy/HouseOfTheDead-bundle.js",
+    "wl": "\"\"C:\\Program Files\\Wonderland\\WonderlandEngine\\bin\\WonderlandEditor.exe\"\""
+  },
+  "devDependencies": {
+    "esbuild": "^0.11.14"
+  },
+  "dependencies": {
+    "@wonderlandengine/api": "^0.8.9",
+    "@wonderlandengine/components": "^0.8.13",
+    "gl-matrix": "^3.3.0"
+  }
+}

@@ -1,3 +1,25 @@
+Game idea:
+    Rogue-like zombie shooter
+
+    Game features:
+        - random map generation like in JS13K 2017 Lost
+        - different weapons:
+            - pistol
+            - shotgun
+            - rifle
+            - knife
+            - axe            
+        - permadeath
+        - if bit by a zombie you have 30s to find a antidote                    
+        - you cannot carry more than one weapon at the same time
+        - you can only pick up ammo for the weapon you are holding        
+        - you can hurt and slow down zombies by throwing anything
+
+    Goals per level:
+        - finding a key to open a specific door or hatch
+        - something with stairs
+        - finding a weapon
+        - finding ammo
 
 
 Must have:

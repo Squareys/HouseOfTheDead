@@ -10,28 +10,28 @@ const leveldata = {
         //     [{ orientation: 'W', wall: 'WC', floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'A', floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'WC', floor: 'W', ceiling: 'W' }]
         // ],
         [
-            [{ orientation: 'N', wall: ['WC','WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'N', wall: ['WI', 'W', 'A'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: 'WC', floor: 'W', ceiling: 'W' }],
+            [{ orientation: 'N', wall: ['WC', 'WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'N', wall: ['WI', 'W', 'A'], prop: 'prop-books', floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: 'WC', floor: 'W', ceiling: 'W' }],
             [{ orientation: 'W', wall: 'A', floor: 'W', ceiling: 'W' }, { floor: 'W', ceiling: 'W', light: '' }, { orientation: 'E', wall: ['WI', 'W', 'A'], floor: 'W', ceiling: 'W' }],
-            [{ orientation: 'W', wall: ['WC','WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: ['WI', 'W'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'WC', floor: 'W', ceiling: 'W' }]
+            [{ orientation: 'W', wall: ['WC', 'WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: ['WI', 'W'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'WC', floor: 'W', ceiling: 'W' }]
         ],
         [
-            [{ orientation: 'N', wall: ['WCA', 'WC','WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: ['WC','WCWI'], floor: 'W', ceiling: 'W' }],
-            [{ orientation: 'W', wall: ['WC','WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: ['WC', 'WCA'], floor: 'W', ceiling: 'W' }]
+            [{ orientation: 'N', wall: ['WCA', 'WC', 'WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: ['WC', 'WCWI'], floor: 'W', ceiling: 'W' }],
+            [{ orientation: 'W', wall: ['WC', 'WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: ['WC', 'WCA'], floor: 'W', ceiling: 'W' }]
         ],
         [
             [{ orientation: 'W', wall: ['WE', 'WEA'], floor: 'W', ceiling: 'W' }, { floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA'], orientation: ['N', 'S'] }, { orientation: 'E', wall: ['WE', 'WEA'], floor: 'W', ceiling: 'W' }],
         ],
         [
-            [{ orientation: 'N', wall: ['WEA', 'WE','WEWI'], floor: 'W', ceiling: 'W' }, {}],
-            [{ orientation: 'W', wall: ['WC','WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: ['WEA', 'WE','WEWI'], floor: 'W', ceiling: 'W' }],
+            [{ orientation: 'N', wall: ['WEA', 'WE', 'WEWI'], floor: 'W', ceiling: 'W' }, {}],
+            [{ orientation: 'W', wall: ['WC', 'WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: ['WEA', 'WE', 'WEWI'], floor: 'W', ceiling: 'W' }],
         ],
         [
-            [{ orientation: 'N', wall: ['WE', 'WEA','WEWI'], floor: 'W', ceiling: 'W' }],
+            [{ orientation: 'N', wall: ['WE', 'WEA', 'WEWI'], floor: 'W', ceiling: 'W' }],
             [{ floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA'], orientation: ['E', 'W'] }],
-            [{ orientation: 'S', wall: ['WE', 'WEA','WEWI'], floor: 'W', ceiling: 'W' }],
+            [{ orientation: 'S', wall: ['WE', 'WEA', 'WEWI'], floor: 'W', ceiling: 'W' }],
         ],
         [
-            [{ orientation: 'N', wall: ['WBSA','WBSAWI'], floor: 'W', ceiling: 'W' }]
+            [{ orientation: 'N', wall: ['WBSA', 'WBSAWI'], floor: 'W', ceiling: 'W' }]
         ],
     ]
 }
@@ -44,6 +44,7 @@ const mapgenComponent = {
         this.walls = {};
         this.floors = {};
         this.ceilings = {};
+        this.props = {};
         this.mapCenter = { x: 64, y: 64 };
     },
 
@@ -157,6 +158,14 @@ const mapgenComponent = {
                     ceilingToPlace.resetTranslationRotation();
                     ceilingToPlace.setTranslationWorld([x * 3, 0, y * 3]);
                 }
+                if (cell.prop) {
+                    const propCode = cell.prop;
+                    const propToPlace = wlUtils.cloneObject(this.props[propCode]);
+                    propToPlace.resetTranslationRotation();
+                    const q = wlUtils.rotationFromDirection(cell.orientation);
+                    propToPlace.rotate(q);
+                    propToPlace.setTranslationWorld([x * 3, 0, y * 3]);
+                }
                 console.log(this.hasPixel(x, y));
                 if (this.isArch(cell)) {
                     this.drawPixel(x, y, '#F00');
@@ -214,6 +223,7 @@ const mapgenComponent = {
         this.readLevelComponent(this.walls, 'Walls');
         this.readLevelComponent(this.floors, 'Floors');
         this.readLevelComponent(this.ceilings, 'Ceilings');
+        this.readLevelComponent(this.props, 'Props');
         // const wallsObject = wlUtils.findChild(this.object, 'Walls');
         // for (let i = 0; i < wallsObject.children.length; i++) {
         //     const wall = wallsObject.children[i];

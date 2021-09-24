@@ -10,7 +10,7 @@ const leveldata = {
         //     [{ orientation: 'W', wall: 'WC', floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'A', floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'WC', floor: 'W', ceiling: 'W' }]
         // ],
         [
-            [{ orientation: 'N', wall: 'WC', floor: 'W', ceiling: 'W' }, { orientation: 'N', wall: ['WI', 'W'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: 'WC', floor: 'W', ceiling: 'W' }],
+            [{ orientation: 'N', wall: 'WC', floor: 'W', ceiling: 'W' }, { orientation: 'N', wall: ['WI', 'W', 'A'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: 'WC', floor: 'W', ceiling: 'W' }],
             [{ orientation: 'W', wall: 'A', floor: 'W', ceiling: 'W' }, { floor: 'W', ceiling: 'W', light: '' }, { orientation: 'E', wall: ['WI', 'W', 'A'], floor: 'W', ceiling: 'W' }],
             [{ orientation: 'W', wall: 'WC', floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: ['WI', 'W'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'WC', floor: 'W', ceiling: 'W' }]
         ],
@@ -45,127 +45,76 @@ const mapgenComponent = {
         this.createPixelMap();
         this.first = true;
 
-        let exits = this.addRoom2();
+        let exits = this.addRoom();
         console.log(exits);
+        for (let i = 0; i < 10; i++) {
+            exits = this.generateRooms(exits);
+        }
+        // let exits3 = [];
+        // console.log(exits2);
+        // exits2.forEach(exit => {
+        //     if (exit)
+        //         exits3 = exits3.concat(this.addRoom(exit));
+        // });
+        // let exits4 = [];
+        // exits3.forEach(exit => {
+        //     if (exit)
+        //         exits4 = exits4.concat(this.addRoom(exit));
+        // });
+        // let exits5 = [];
+        // exits4.forEach(exit => {
+        //     if (exit)
+        //         exits5 = exits5.concat(this.addRoom(exit));
+        // });
+
+
+
+        //console.log(exits, exits2, exits3, exits4, exits5);
+    },
+    generateRooms(exits) {
         let exits2 = [];
         exits.forEach(exit => {
-            exits2 = exits2.concat(this.addRoom2(exit));
+            if (exit)
+                exits2 = exits2.concat(this.addRoom(exit));
         });
-        let exits3 = [];
-        
-        exits2.forEach(exit => {
-            exits3 = exits3.concat(this.addRoom2(exit));
-        });
-        let exits4 = [];
-        exits3.forEach(exit => {
-            exits4 = exits4.concat(this.addRoom2(exit));
-        });
-        let exits5 = [];
-        exits4.forEach(exit => {
-            exits5 = exits5.concat(this.addRoom2(exit));
-        });
-
-        console.log(exits,exits2,exits3,exits4,exits5);
-        // this.first = false;
-        // let exits2;
-
-        // exits.forEach(exit => {
-        //     exits2 = this.addRoom(exit);
-        // });
-        // exits2.forEach(exit => {
-        //     this.addRoom(exit);
-        // });
-
-
-
-        // leveldata.rooms[~~(Math.random() * leveldata.rooms.length)].forEach((row, rowIndex) => {
-        //     row.forEach((cell, cellIndex) => {
-        //         if (cell.wall) {
-        //             const wallCode = Array.isArray(cell.wall) ? cell.wall[~~(Math.random() * cell.wall.length)] : cell.wall;
-        //             const wallToPlace = wlUtils.cloneObject(this.walls[wallCode]);
-        //             if (~wallCode.indexOf('A')) {
-        //                 this.drawPixel(rowIndex + 32, cellIndex + 32, '#F00');
-        //             } else {
-        //                 this.drawPixel(rowIndex + 32, cellIndex + 32, '#888');
-        //             }
-        //             wallToPlace.resetTranslationRotation();
-        //             const q = wlUtils.rotationFromDirection(Array.isArray(cell.orientation) ? cell.orientation[~~(Math.random() * cell.orientation.length)] : cell.orientation);
-        //             wallToPlace.rotate(q);
-        //             wallToPlace.setTranslationWorld([cellIndex * 3, 0, rowIndex * 3]);
-        //         }
-
-        //         if (cell.floor) {
-        //             const floorCode = Array.isArray(cell.floor) ? cell.floor[~~(Math.random() * cell.floor.length)] : cell.floor;
-        //             const floorToPlace = wlUtils.cloneObject(this.floors[floorCode]);
-        //             floorToPlace.resetTranslationRotation();
-        //             floorToPlace.setTranslationWorld([cellIndex * 3, 0, rowIndex * 3]);
-        //         }
-
-        //         if (cell.ceiling) {
-        //             const ceilingCode = Array.isArray(cell.ceiling) ? cell.ceiling[~~(Math.random() * cell.ceiling.length)] : cell.ceiling;
-        //             const ceilingToPlace = wlUtils.cloneObject(this.ceilings[ceilingCode]);
-        //             ceilingToPlace.resetTranslationRotation();
-        //             ceilingToPlace.setTranslationWorld([cellIndex * 3, 0, rowIndex * 3]);
-        //         }
-        //     });
-        // });
+        return exits2;
     },
-    addRoom2(startingExit) {
+    // pick a random room template and clone it.
+    // try placing the cloned template at the position based on the exit
+    // when a random tile is choosen, write that to the cloned template.
+    // store the location of the exits of the room.
+    // if the room fits, add it to the level.
+    // run addRoom for every exit.   
+    addRoom(startingExit) {
         let roomFound = false;
         let numTries = 60;
         let room, roomExits, roomPosition;
         let availableExits = [];
+        let roomId = new Date().getTime();
         if (startingExit) {
+            console.log(`-{ starting ${roomId}}-`);
             do {
-                console.log('starting');
                 room = JSON.parse(JSON.stringify(leveldata.rooms[~~(Math.random() * leveldata.rooms.length)]));
                 roomPosition = { x: 0, y: 0 };
-
                 roomExits = this.findExitsInRoom(room);
-                
-
-                // let w = room.length;
-                // let h = room[0].length;
-                let validExit;
-                if (startingExit.o === 'N') {
-                    validExit = roomExits.find(exit => exit.o == 'S');
-                }
-                if (startingExit.o === 'S') {
-                    validExit = roomExits.find(exit => exit.o == 'N');
-                }
-                if (startingExit.o === 'E') {
-                    validExit = roomExits.find(exit => exit.o == 'W');
-                }
-                if (startingExit.o === 'W') {
-                    validExit = roomExits.find(exit => exit.o == 'E');
-                }
-                console.log(startingExit.o, startingExit, validExit, roomPosition)
-                if (validExit) {
-                    roomPosition = { x: startingExit.x - validExit.x, y: startingExit.y - validExit.y };
-                    let areaIsClear = true;
-                    room.forEach((row, rowIndex) => {
-                        row.forEach((cell, cellIndex) => {
-                            if (cell.floor) {
-                                const x = roomPosition.x + cellIndex;// - room.exits[i].x+t.x;
-                                const y = roomPosition.y + rowIndex;// - room.exits[i].y+t.y;
-                                const newLocal = this.hasPixel(x, y);
-                                console.log(newLocal)
-                                if (newLocal) {
-                                    areaIsClear = false;
-                                }
-                            }
-                        })
-                    })
-                    if (areaIsClear) {
-                        roomFound = true;
-                        break;
+                if (roomExits.length > 0) {
+                    let validExit = this.findValidExit(startingExit, roomExits);
+                    if (validExit) {
+                        roomPosition = { x: startingExit.x - validExit.x, y: startingExit.y - validExit.y };
+                        let areaIsClear = this.checkAreaIsClear(room, roomPosition);
+                        if (areaIsClear) {
+                            console.log('area is clear');
+                            roomFound = true;
+                            break;
+                        }
                     }
                 }
-
                 numTries--
             } while (numTries > 0);
+
             if (!roomFound) {
-                console.log('no room found')
+                console.log(`no room found (${roomId})`);
+                //  debugger;
                 return;
             }
         } else {
@@ -175,7 +124,8 @@ const mapgenComponent = {
                 roomExits = this.findExitsInRoom(room);
             } while (roomExits.length === 0);
         }
-        console.log('room found');
+
+        console.log(`room found ${roomId}`);
         room.forEach((row, rowIndex) => {
             row.forEach((cell, cellIndex) => {
                 const x = roomPosition.x + cellIndex;
@@ -200,6 +150,7 @@ const mapgenComponent = {
                     ceilingToPlace.resetTranslationRotation();
                     ceilingToPlace.setTranslationWorld([x * 3, 0, y * 3]);
                 }
+                console.log(this.hasPixel(x, y));
                 if (this.isArch(cell)) {
                     this.drawPixel(x, y, '#F00');
                     var d = wlUtils.translateFromDirection(x, y, cell.orientation);
@@ -207,109 +158,50 @@ const mapgenComponent = {
                     //this.drawPixel(x + d.x, y + d.y, '#400');
                 } else {
                     this.drawPixel(x, y, '#888');
-
-
-
-
                 }
-
-
-
             })
         })
-        console.log(`exits:${availableExits.length}`);
+        console.log(`exits:${availableExits.length} (${roomId})`);
         return availableExits;
+
+
+
+
+    },
+    checkAreaIsClear(room, roomPosition) {
+        let areaIsClear = true;
+        room.forEach((row, rowIndex) => {
+            row.forEach((cell, cellIndex) => {
+                if (cell.floor) {
+                    const x = roomPosition.x + cellIndex;
+                    const y = roomPosition.y + rowIndex;
+                    if (this.hasPixel(x, y)) {
+                        areaIsClear = false;
+                    }
+                }
+            });
+        });
+        return areaIsClear;
+    },
+    findValidExit(startingExit, roomExits) {
+        let validExit;
+        if (startingExit.o === 'N') {
+            validExit = roomExits.find(exit => exit.o == 'S');
+        }
+        if (startingExit.o === 'S') {
+            validExit = roomExits.find(exit => exit.o == 'N');
+        }
+        if (startingExit.o === 'E') {
+            validExit = roomExits.find(exit => exit.o == 'W');
+        }
+        if (startingExit.o === 'W') {
+            validExit = roomExits.find(exit => exit.o == 'E');
+        }
+        return validExit;
     },
     isArch(cell) {
         return cell.wall && !!~cell.wall.indexOf('A');
     },
-    // pick a random room template and clone it.
-    // try placing the cloned template at the position based on the exit
-    // when a random tile is choosen, write that to the cloned template.
-    // store the location of the exits of the room.
-    // if the room fits, add it to the level.
-    // run addRoom for every exit.   
-    // addRoom(exit) {
-    //     console.log('creating room')
-    //     let numTries = this.roomPlacementTries;
-    //     let areaIsClear = true;
-    //     let exitIndex = null;
-    //     let room = null;
-    //     let target;
-    //     // see if the random room fits the location        
-    //     do {
-    //         areaIsClear = true;
-    //         room = //JSON.parse(JSON.stringify(leveldata.rooms[~~(Math.random() * leveldata.rooms.length)]));
-    //             room = JSON.parse(JSON.stringify(leveldata.rooms[0]));
-    //         room.exits = this.findExitsInRoom(room);
-
-    //         foo: {
-    //             for (let i = 0; i < room.exits.length; i++) {
-    //                 target = room.exits[i];
-    //                 let w = room.length;
-    //                 let h = room[0].length;
-    //                 // calculate absolute room position
-    //                 var d = wlUtils.translateFromDirection(target.x, target.y, target.o);
-    //                 var e = { x: d.x * w, y: d.y * h };
-    //                 console.log(e);
-    //                 room.forEach((row, rowIndex) => {
-    //                     row.forEach((cell, cellIndex) => {
-    //                         if (cell.floor) {
-    //                             const x = cellIndex + exit.x - target.x;// - room.exits[i].x+t.x;
-    //                             const y = rowIndex + exit.y - target.y;// - room.exits[i].y+t.y;
-    //                             const newLocal = this.hasPixel(x, y);
-    //                             console.log(newLocal)
-    //                             if (newLocal) {
-    //                                 areaIsClear = false;
-    //                             }
-    //                         }
-    //                     })
-    //                 })
-
-    //                 if (areaIsClear) {
-    //                     exitIndex = i;
-    //                     break foo;
-    //                 }
-    //             }
-    //         }
-    //         numTries--
-    //     } while (numTries > 0 && !areaIsClear);
-
-    //     if (numTries === 0 && !areaIsClear) {
-    //         console.log('no room fits');
-    //     } else {
-    //         let createdExits = [];
-
-    //         room.forEach((row, rowIndex) => {
-    //             row.forEach((cell, cellIndex) => {
-    //                 if (cell.floor) {
-    //                     const x = cellIndex + exit.x - target.x;
-    //                     const y = rowIndex + exit.y - target.y;
-    //                     if (cell.wall) {
-
-    //                         const wallToPlace = wlUtils.cloneObject(this.walls[cell.wall]);
-    //                         wallToPlace.resetTranslationRotation();
-    //                         const q = wlUtils.rotationFromDirection(cell.orientation);
-    //                         wallToPlace.rotate(q);
-    //                         wallToPlace.setTranslationWorld([x * 3, 0, y * 3]);
-
-    //                         if (!!~cell.wall.indexOf('A')) {
-    //                             let t = wlUtils.translateFromDirection(x, y, cell.orientation);
-    //                             createdExits.push({ x: x, y: y, o: cell.orientation });
-    //                             this.drawPixel(x, y, '#F00');
-    //                         } else {
-    //                             this.drawPixel(x, y, '#888');
-    //                         }
-    //                     } else {
-    //                         this.drawPixel(x, y, '#888');
-    //                     }
-    //                 }
-
-    //             })
-    //         })
-    //         return createdExits;
-    //     }
-    // },
 
     readLevelComponents() {
         this.readLevelComponent(this.walls, 'Walls');
@@ -350,10 +242,10 @@ const mapgenComponent = {
         mapCanvas.height = 128;
 
         // Temp during development
-        mapCanvas.style.width = '256px';
-        mapCanvas.style.height = '256px';
-        mapCanvas.style.imageRendering = 'pixelated';
-        document.body.appendChild(mapCanvas);
+        // mapCanvas.style.width = '1024px';
+        // mapCanvas.style.height = '1024px';
+        // mapCanvas.style.imageRendering = 'pixelated';
+        // document.body.appendChild(mapCanvas);
         // END
 
         this.mapContext = mapCanvas.getContext('2d');

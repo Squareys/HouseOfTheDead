@@ -21,11 +21,12 @@ Game idea:
         - finding a weapon
         - finding ammo
 
-
 Must have:
-    ✔ Zombies coming from more places @done(21-07-22 23:44)
-    ✔ Death Animation @done(21-07-22 22:59)
+    ☐ Archways need to be closed with a door or replaces with an empty wall when there's nothing behing it
+    ☐ validate that you don't start in a room without doors
+
     
+Would like:    
     ☐ Muzzle Particles
     ☐ Blood particles
     ☐ sound fx when hitting the zombie
@@ -41,7 +42,8 @@ Could have:
     ☐ limited bullets
     ☐ if out of bullets, you should be able to hit the zombie with fists (hand tracking)
 
-Would like:
 
-Bugs:
-    ✔ Bones in arms are scaled incorrectly @done(21-07-22 22:59)
+Archive:
+  ✔ Zombies coming from more places @done(21-07-22 23:44) @project(Must have)
+  ✔ Death Animation @done(21-07-22 22:59) @project(Must have)
+  ✔ Bones in arms are scaled incorrectly @done(21-07-22 22:59) @project(Bugs)

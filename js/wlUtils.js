@@ -6,18 +6,27 @@ import { vec3, quat } from 'gl-matrix';
   * @returns {Object} the cloned object
   */
 function cloneObject(object) {
-
+    if(!object || !object.parent){
+        console.log(object);
+        debugger;
+    }
     let cloned = WL.scene.addObject(object.parent);
     let components = object.getComponents();
     for (let i = 0; i < components.length; i++) {
         if (components[i].type == "mesh") {
-            cloned.addComponent('mesh',{
+            cloned.addComponent('mesh', {
                 mesh: components[i].mesh,
                 material: components[i].material
             });
             // newMesh.mesh = components[i].mesh;
             // newMesh.material = components[i].material;
+            // } else if (components[i].type == "light") {
+            //     cloned.addComponent('light',{
+            //         color: components[i].color,
+            //         lightType: components[i].lightType,
+            //     });
         } else {
+            console.log(components[i].type)
             cloned.addComponent(components[i].type, components[i]);
         }
     }
@@ -52,10 +61,19 @@ function findChild(object, childName) {
     * @returns {[4]} Quaternion with rotation
     */
 function rotationFromDirection(direction) {
-    return quat.fromEuler(quat.create(), 0, { 'N': 0, 'S': 180, 'E': 270, 'W':90  }[direction], 0);
+    return quat.fromEuler(quat.create(), 0, { 'N': 0, 'S': 180, 'E': 270, 'W': 90 }[direction], 0);
 }
+
+function translateFromDirection(x, y, direction) {
+    return {
+        x: { 'N': 0, 'S': 0, 'E': 1, 'W': -1 }[direction],
+        y: { 'N': -1, 'S': 1, 'E': 0, 'W': 0 }[direction]
+    }
+}
+
 export const wlUtils = {
     cloneObject,
     findChild,
-    rotationFromDirection
+    rotationFromDirection,
+    translateFromDirection
 }

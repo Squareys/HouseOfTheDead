@@ -10,21 +10,29 @@ const leveldata = {
         //     [{ orientation: 'W', wall: 'WC', floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'A', floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'WC', floor: 'W', ceiling: 'W' }]
         // ],
         [
-            [{ orientation: 'N', wall: 'WC', floor: 'W', ceiling: 'W' }, { orientation: 'N', wall: ['WI', 'W', 'A'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: 'WC', floor: 'W', ceiling: 'W' }],
+            [{ orientation: 'N', wall: ['WC','WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'N', wall: ['WI', 'W', 'A'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: 'WC', floor: 'W', ceiling: 'W' }],
             [{ orientation: 'W', wall: 'A', floor: 'W', ceiling: 'W' }, { floor: 'W', ceiling: 'W', light: '' }, { orientation: 'E', wall: ['WI', 'W', 'A'], floor: 'W', ceiling: 'W' }],
-            [{ orientation: 'W', wall: 'WC', floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: ['WI', 'W'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'WC', floor: 'W', ceiling: 'W' }]
+            [{ orientation: 'W', wall: ['WC','WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: ['WI', 'W'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: 'WC', floor: 'W', ceiling: 'W' }]
         ],
         [
-            [{ orientation: 'N', wall: ['WCA', 'WC'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: 'WC', floor: 'W', ceiling: 'W' }],
-            [{ orientation: 'W', wall: 'WC', floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: ['WC', 'WCA'], floor: 'W', ceiling: 'W' }]
+            [{ orientation: 'N', wall: ['WCA', 'WC','WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: ['WC','WCWI'], floor: 'W', ceiling: 'W' }],
+            [{ orientation: 'W', wall: ['WC','WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'S', wall: ['WC', 'WCA'], floor: 'W', ceiling: 'W' }]
         ],
         [
             [{ orientation: 'W', wall: ['WE', 'WEA'], floor: 'W', ceiling: 'W' }, { floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA'], orientation: ['N', 'S'] }, { orientation: 'E', wall: ['WE', 'WEA'], floor: 'W', ceiling: 'W' }],
         ],
         [
-            [{ orientation: 'N', wall: ['WEA', 'WE'], floor: 'W', ceiling: 'W' }, {}],
-            [{ orientation: 'W', wall: 'WC', floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: ['WEA', 'WE'], floor: 'W', ceiling: 'W' }],
-        ]
+            [{ orientation: 'N', wall: ['WEA', 'WE','WEWI'], floor: 'W', ceiling: 'W' }, {}],
+            [{ orientation: 'W', wall: ['WC','WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: ['WEA', 'WE','WEWI'], floor: 'W', ceiling: 'W' }],
+        ],
+        [
+            [{ orientation: 'N', wall: ['WE', 'WEA','WEWI'], floor: 'W', ceiling: 'W' }],
+            [{ floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA'], orientation: ['E', 'W'] }],
+            [{ orientation: 'S', wall: ['WE', 'WEA','WEWI'], floor: 'W', ceiling: 'W' }],
+        ],
+        [
+            [{ orientation: 'N', wall: ['WBSA','WBSAWI'], floor: 'W', ceiling: 'W' }]
+        ],
     ]
 }
 
@@ -46,7 +54,6 @@ const mapgenComponent = {
         this.first = true;
 
         let exits = this.addRoom();
-        console.log(exits);
         for (let i = 0; i < 10; i++) {
             exits = this.generateRooms(exits);
         }

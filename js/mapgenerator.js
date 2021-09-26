@@ -1,4 +1,4 @@
-import * as WL from "@wonderlandengine/api"
+//import * as WL from "@wonderlandengine/api"
 import { wlUtils } from './wlUtils';
 
 // console.log(WL);
@@ -22,12 +22,22 @@ const leveldata = {
             [{ orientation: 'W', wall: ['WE', 'WEA'], floor: 'W', ceiling: 'W' }, { floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA'], orientation: ['N', 'S'] }, { orientation: 'E', wall: ['WE', 'WEA'], floor: 'W', ceiling: 'W' }],
         ],
         [
+            [{ orientation: 'W', wall: ['WE', 'WEA'], floor: 'W', ceiling: 'W' }, { floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA', 'WS', 'WSWI'], orientation: ['N', 'S'] }, { floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA', 'WS', 'WSWI'], orientation: ['N', 'S'] }, { floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA', 'WS', 'WSWI'], orientation: ['N', 'S'] }, { orientation: 'E', wall: ['WE', 'WEA'], floor: 'W', ceiling: 'W' }],
+        ],
+        [
             [{ orientation: 'N', wall: ['WEA', 'WE', 'WEWI'], floor: 'W', ceiling: 'W' }, {}],
             [{ orientation: 'W', wall: ['WC', 'WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: ['WEA', 'WE', 'WEWI'], floor: 'W', ceiling: 'W' }],
         ],
         [
             [{ orientation: 'N', wall: ['WE', 'WEA', 'WEWI'], floor: 'W', ceiling: 'W' }],
             [{ floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA'], orientation: ['E', 'W'] }],
+            [{ orientation: 'S', wall: ['WE', 'WEA', 'WEWI'], floor: 'W', ceiling: 'W' }],
+        ],
+        [
+            [{ orientation: 'N', wall: ['WE', 'WEA', 'WEWI'], floor: 'W', ceiling: 'W' }],
+            [{ floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA', 'WS', 'WSWI'], orientation: ['E', 'W'] }],
+            [{ floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA', 'WS', 'WSWI'], orientation: ['E', 'W'] }],
+            [{ floor: 'W', ceiling: 'W', wall: ['WSA', 'WWSA', 'WS', 'WSWI'], orientation: ['E', 'W'] }],
             [{ orientation: 'S', wall: ['WE', 'WEA', 'WEWI'], floor: 'W', ceiling: 'W' }],
         ],
         [
@@ -53,11 +63,14 @@ const mapgenComponent = {
         this.readLevelComponents();
         this.createPixelMap();
         this.first = true;
+        this.totalRooms = 0;
+        this.mapRoot = WL.scene.addObject(this.object);
 
         let exits = this.addRoom();
         for (let i = 0; i < 10; i++) {
             exits = this.generateRooms(exits);
         }
+        console.log(this.totalRooms);
         // let exits3 = [];
         // console.log(exits2);
         // exits2.forEach(exit => {
@@ -134,12 +147,15 @@ const mapgenComponent = {
         }
 
         console.log(`room found ${roomId}`);
+        let roomEntity = WL.scene.addObject();
+        roomEntity.parent = this.mapRoot;
         room.forEach((row, rowIndex) => {
             row.forEach((cell, cellIndex) => {
                 const x = roomPosition.x + cellIndex;
                 const y = roomPosition.y + rowIndex;
                 if (cell.wall) {
                     const wallToPlace = wlUtils.cloneObject(this.walls[cell.wall]);
+                    wallToPlace.parent = roomEntity;
                     wallToPlace.resetTranslationRotation();
                     const q = wlUtils.rotationFromDirection(cell.orientation);
                     wallToPlace.rotate(q);
@@ -148,6 +164,7 @@ const mapgenComponent = {
                 if (cell.floor) {
                     const floorCode = Array.isArray(cell.floor) ? cell.floor[~~(Math.random() * cell.floor.length)] : cell.floor;
                     const floorToPlace = wlUtils.cloneObject(this.floors[floorCode]);
+                    floorToPlace.parent = roomEntity;
                     floorToPlace.resetTranslationRotation();
                     floorToPlace.setTranslationWorld([x * 3, 0, y * 3]);
                 }
@@ -155,12 +172,14 @@ const mapgenComponent = {
                 if (cell.ceiling) {
                     const ceilingCode = Array.isArray(cell.ceiling) ? cell.ceiling[~~(Math.random() * cell.ceiling.length)] : cell.ceiling;
                     const ceilingToPlace = wlUtils.cloneObject(this.ceilings[ceilingCode]);
+                    ceilingToPlace.parent = roomEntity;
                     ceilingToPlace.resetTranslationRotation();
                     ceilingToPlace.setTranslationWorld([x * 3, 0, y * 3]);
                 }
                 if (cell.prop) {
                     const propCode = cell.prop;
                     const propToPlace = wlUtils.cloneObject(this.props[propCode]);
+                    propToPlace.parent = roomEntity;
                     propToPlace.resetTranslationRotation();
                     const q = wlUtils.rotationFromDirection(cell.orientation);
                     propToPlace.rotate(q);
@@ -177,6 +196,7 @@ const mapgenComponent = {
                 }
             })
         })
+        this.totalRooms++;
         console.log(`exits:${availableExits.length} (${roomId})`);
         return availableExits;
 

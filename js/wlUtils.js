@@ -18,13 +18,6 @@ function cloneObject(object) {
                 mesh: components[i].mesh,
                 material: components[i].material
             });
-            // newMesh.mesh = components[i].mesh;
-            // newMesh.material = components[i].material;
-            // } else if (components[i].type == "light") {
-            //     cloned.addComponent('light',{
-            //         color: components[i].color,
-            //         lightType: components[i].lightType,
-            //     });
         } else {
             console.log(components[i].type)
             cloned.addComponent(components[i].type, components[i]);

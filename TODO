@@ -25,7 +25,7 @@ Must have:
     ☐ Archways need to be closed with a door or replaces with an empty wall when there's nothing behing it
     ☐ validate that you don't start in a room without doors
     ☐ validate that that there are at least a couple of rooms
-    
+    ☐ Some Props cannot be placed in front of an arch, or a window. How can we prevent that while keeping the randomization
 Would like:    
     ☐ Muzzle Particles
     ☐ Blood particles

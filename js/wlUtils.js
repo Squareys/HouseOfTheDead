@@ -31,7 +31,7 @@ function cloneObject(object) {
 
     if (object.children.length > 0) {
         for (let i = 0; i < object.children.length; i++) {
-            let childClone = this.cloneObject(object.children[i],);
+            let childClone = cloneObject(object.children[i]);
             childClone.parent = cloned;
         }
     }

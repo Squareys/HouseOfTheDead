@@ -42,6 +42,46 @@ Could have:
     ☐ limited bullets
     ☐ if out of bullets, you should be able to hit the zombie with fists (hand tracking)
 
+Thoughts and ideas:
+    - We could link rooms together. Every room will get a list of rooms that are connected to it.
+        - we need to keep track of what exit links to what room
+        - We could use this to help the zombies navigate, because we can do a search on rooms first and use something like A* for the last pieces.
+    - I would love to figure out a way to create paths that circle. Rooms with 2 exits connecting a 1 other room with 2 exits.
+    - A room should have a type, like living room, kitchen, bathroom or bedroom. The furniture should be random, but based on the type of room.
+    - Also connecting rooms should be kinda logical. It doesn't make sense to have a bedroom with 2 kitchens connected to it.
+    - When we start working on other types of levels, like the basement, we could also define a couple of rooms with a specific type.
+    - models to draw:
+        - kitchen:
+            - stove
+            - table
+            - chair
+            - cupboard
+            - fridge
+            - sink
+        - bedroom:
+            - bed
+            - dresser
+            - nightstand
+        - living room:
+            - couch
+            - tv
+            - sofa
+            - lamp
+            - bookshelf
+        - bathroom:
+            - bathtub
+            - shower
+            - sink
+            - toilet
+        - office
+            - desk
+            - chair
+            - cabinet
+            - bookshelf
+
+
+
+
 
 Archive:
   ✔ Zombies coming from more places @done(21-07-22 23:44) @project(Must have)

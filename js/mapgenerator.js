@@ -62,35 +62,17 @@ const mapgenComponent = {
         this.generateRoomVariations();
         this.readLevelComponents();
         this.createPixelMap();
+
+        this.navController = this.navControllerObject.getComponent('navcontroller');
+
         this.first = true;
         this.totalRooms = 0;
         this.mapRoot = WL.scene.addObject(this.object);
-
         let exits = this.addRoom();
         for (let i = 0; i < 10; i++) {
             exits = this.generateRooms(exits);
         }
-        console.log(this.totalRooms);
-        // let exits3 = [];
-        // console.log(exits2);
-        // exits2.forEach(exit => {
-        //     if (exit)
-        //         exits3 = exits3.concat(this.addRoom(exit));
-        // });
-        // let exits4 = [];
-        // exits3.forEach(exit => {
-        //     if (exit)
-        //         exits4 = exits4.concat(this.addRoom(exit));
-        // });
-        // let exits5 = [];
-        // exits4.forEach(exit => {
-        //     if (exit)
-        //         exits5 = exits5.concat(this.addRoom(exit));
-        // });
-
-
-
-        //console.log(exits, exits2, exits3, exits4, exits5);
+        console.log(this.totalRooms);      
     },
     generateRooms(exits) {
         let exits2 = [];
@@ -140,7 +122,7 @@ const mapgenComponent = {
             }
         } else {
             do {
-                room = JSON.parse(JSON.stringify(leveldata.rooms[~~(Math.random() * leveldata.rooms.length)]));
+                room = JSON.parse(JSON.stringify(leveldata.rooms[0]));
                 roomPosition = { x: 0, y: 0 };
                 roomExits = this.findExitsInRoom(room);
             } while (roomExits.length === 0);
@@ -153,6 +135,8 @@ const mapgenComponent = {
             row.forEach((cell, cellIndex) => {
                 const x = roomPosition.x + cellIndex;
                 const y = roomPosition.y + rowIndex;
+                this.navController.draw(x,y, this.totalRooms + 1, this.isArch(cell), cell.orientation);
+                console.log(x*3,y*3);
                 if (cell.wall) {
                     const wallToPlace = wlUtils.cloneObject(this.walls[cell.wall]);
                     wallToPlace.parent = roomEntity;
@@ -160,6 +144,7 @@ const mapgenComponent = {
                     const q = wlUtils.rotationFromDirection(cell.orientation);
                     wallToPlace.rotate(q);
                     wallToPlace.setTranslationWorld([x * 3, 0, y * 3]);
+                    
                 }
                 if (cell.floor) {
                     const floorCode = Array.isArray(cell.floor) ? cell.floor[~~(Math.random() * cell.floor.length)] : cell.floor;
@@ -287,8 +272,7 @@ const mapgenComponent = {
 
         this.mapContext = mapCanvas.getContext('2d');
         this.mapContext.fillStyle = "rgba(0, 0, 0, 1)";
-        this.mapContext.fillRect(0, 0, 128, 128);
-        this.mapContext
+        this.mapContext.fillRect(0, 0, 128, 128);        
     },
     drawPixel(x, y, color) {
         this.mapContext.fillStyle = color;
@@ -398,6 +382,7 @@ const params = {
     roomPlacementTries: { type: WL.Type.Int, default: 1 },
     width: { type: WL.Type.Int, default: 30 },
     height: { type: WL.Type.Int, default: 30 },
+    navControllerObject: {type: WL.Type.Object}
 }
 
 WL.registerComponent('mapgenerator', params, mapgenComponent);

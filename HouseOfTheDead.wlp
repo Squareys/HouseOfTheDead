@@ -263,7 +263,7 @@
             ],
             "transformation": [
                 0.5502164,
-                -8.940693874137652e-8,
+                -8.940693874137657e-8,
                 -0.8350216,
                 0.0,
                 -0.5191864,
@@ -274,7 +274,7 @@
                 0.6217639,
                 0.430932,
                 0.0,
-                -8.940696716308595e-8,
+                -8.9406967163086e-8,
                 2.07954,
                 -4.76837158203125e-7,
                 1.0
@@ -378,210 +378,240 @@
                 {
                     "active": false
                 }
-            ]
+            ],
+            "deleted": true
         },
         "55": {
             "link": {
                 "name": "thumbrest_pressed_max<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "56": {
             "link": {
                 "name": "thumbrest_pressed_min<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "57": {
             "link": {
                 "name": "thumbrest_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "58": {
             "link": {
                 "name": "x_button_pressed_max<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "59": {
             "link": {
                 "name": "x_button_pressed_min<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "60": {
             "link": {
                 "name": "x_button_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "61": {
             "link": {
                 "name": "x_button<x_button_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "60"
+            "parent": "60",
+            "deleted": true
         },
         "62": {
             "link": {
                 "name": "xr_standard_squeeze_pressed_max<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "63": {
             "link": {
                 "name": "xr_standard_squeeze_pressed_min<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "64": {
             "link": {
                 "name": "xr_standard_squeeze_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "65": {
             "link": {
                 "name": "squeeze<xr_standard_squeeze_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "64"
+            "parent": "64",
+            "deleted": true
         },
         "66": {
             "link": {
                 "name": "xr_standard_thumbstick_pressed_max<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "67": {
             "link": {
                 "name": "xr_standard_thumbstick_pressed_min<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "68": {
             "link": {
                 "name": "xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "69": {
             "link": {
                 "name": "xr_standard_thumbstick_xaxis_pressed_max<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "68"
+            "parent": "68",
+            "deleted": true
         },
         "70": {
             "link": {
                 "name": "xr_standard_thumbstick_xaxis_pressed_min<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "68"
+            "parent": "68",
+            "deleted": true
         },
         "71": {
             "link": {
                 "name": "xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "68"
+            "parent": "68",
+            "deleted": true
         },
         "72": {
             "link": {
                 "name": "xr_standard_thumbstick_yaxis_pressed_max<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "71"
+            "parent": "71",
+            "deleted": true
         },
         "73": {
             "link": {
                 "name": "xr_standard_thumbstick_yaxis_pressed_min<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "71"
+            "parent": "71",
+            "deleted": true
         },
         "74": {
             "link": {
                 "name": "xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "71"
+            "parent": "71",
+            "deleted": true
         },
         "75": {
             "link": {
                 "name": "thumbstick<xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "74"
+            "parent": "74",
+            "deleted": true
         },
         "76": {
             "link": {
                 "name": "xr_standard_trigger_pressed_max<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "77": {
             "link": {
                 "name": "xr_standard_trigger_pressed_min<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "78": {
             "link": {
                 "name": "xr_standard_trigger_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "79": {
             "link": {
                 "name": "trigger<xr_standard_trigger_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "78"
+            "parent": "78",
+            "deleted": true
         },
         "80": {
             "link": {
                 "name": "y_button_pressed_max<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "81": {
             "link": {
                 "name": "y_button_pressed_min<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "82": {
             "link": {
                 "name": "y_button_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "53"
+            "parent": "53",
+            "deleted": true
         },
         "83": {
             "link": {
                 "name": "y_button<y_button_pressed_value<root",
                 "file": "models\\oculus-touch-v2-left.glb"
             },
-            "parent": "82"
+            "parent": "82",
+            "deleted": true
         },
         "95": {
             "link": {
@@ -607,63 +637,72 @@
                 -0.0006203,
                 0.0177838,
                 1.0
-            ]
+            ],
+            "deleted": true
         },
         "96": {
             "link": {
                 "name": "a_button_pressed_max<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "97": {
             "link": {
                 "name": "a_button_pressed_min<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "98": {
             "link": {
                 "name": "a_button_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "99": {
             "link": {
                 "name": "a_button<a_button_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "98"
+            "parent": "98",
+            "deleted": true
         },
         "100": {
             "link": {
                 "name": "b_button_pressed_max<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "101": {
             "link": {
                 "name": "b_button_pressed_min<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "102": {
             "link": {
                 "name": "b_button_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "103": {
             "link": {
                 "name": "b_button<b_button_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "102"
+            "parent": "102",
+            "deleted": true
         },
         "104": {
             "link": {
@@ -675,154 +714,176 @@
                 {
                     "active": false
                 }
-            ]
+            ],
+            "deleted": true
         },
         "105": {
             "link": {
                 "name": "thumbrest_pressed_max<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "106": {
             "link": {
                 "name": "thumbrest_pressed_min<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "107": {
             "link": {
                 "name": "thumbrest_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "108": {
             "link": {
                 "name": "xr_standard_squeeze_pressed_max<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "109": {
             "link": {
                 "name": "xr_standard_squeeze_pressed_min<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "110": {
             "link": {
                 "name": "xr_standard_squeeze_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "111": {
             "link": {
                 "name": "squeeze<xr_standard_squeeze_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "110"
+            "parent": "110",
+            "deleted": true
         },
         "112": {
             "link": {
                 "name": "xr_standard_thumbstick_pressed_max<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "113": {
             "link": {
                 "name": "xr_standard_thumbstick_pressed_min<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "114": {
             "link": {
                 "name": "xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "115": {
             "link": {
                 "name": "xr_standard_thumbstick_xaxis_pressed_max<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "114"
+            "parent": "114",
+            "deleted": true
         },
         "116": {
             "link": {
                 "name": "xr_standard_thumbstick_xaxis_pressed_min<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "114"
+            "parent": "114",
+            "deleted": true
         },
         "117": {
             "link": {
                 "name": "xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "114"
+            "parent": "114",
+            "deleted": true
         },
         "118": {
             "link": {
                 "name": "xr_standard_thumbstick_yaxis_pressed_max<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "deleted": true
         },
         "119": {
             "link": {
                 "name": "xr_standard_thumbstick_yaxis_pressed_min<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "deleted": true
         },
         "120": {
             "link": {
                 "name": "xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "deleted": true
         },
         "121": {
             "link": {
                 "name": "thumbstick<xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "120"
+            "parent": "120",
+            "deleted": true
         },
         "122": {
             "link": {
                 "name": "xr_standard_trigger_pressed_max<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "123": {
             "link": {
                 "name": "xr_standard_trigger_pressed_min<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "124": {
             "link": {
                 "name": "xr_standard_trigger_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "95"
+            "parent": "95",
+            "deleted": true
         },
         "125": {
             "link": {
                 "name": "trigger<xr_standard_trigger_pressed_value<root",
                 "file": "models\\oculus-touch-v2-right.glb"
             },
-            "parent": "124"
+            "parent": "124",
+            "deleted": true
         },
         "126": {
             "name": "CursorLeft",
@@ -844,15 +905,12 @@
                     }
                 },
                 {
-                    "type": "teleport",
-                    "teleport": {
-                        "floorGroup": 2,
-                        "camRoot": "14",
-                        "cam": "17",
-                        "teleportIndicatorMeshObject": "208",
-                        "indicatorYOffset": 0.0099999,
-                        "eyeLeft": "18",
-                        "eyeRight": "19"
+                    "type": "target-picker",
+                    "target-picker": {
+                        "allowedPickerMeshObject": "208",
+                        "notAllowedPickerMeshObject": "430",
+                        "player": "14",
+                        "navControllerObject": "417"
                     }
                 }
             ],
@@ -881,13 +939,14 @@
                 {
                     "type": "mesh",
                     "mesh": {
-                        "mesh": "9",
+                        "mesh": "8",
                         "material": "128"
-                    }
+                    },
+                    "active": false
                 }
             ],
             "transformation": [
-                0.0099999,
+                0.5,
                 0.0,
                 0.0,
                 0.0,
@@ -897,11 +956,11 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0099999,
+                0.5,
                 0.0,
                 0.0,
-                0.0388118,
-                1.5585095,
+                0.0388117,
+                1.5585094,
                 1.0
             ],
             "parent": null
@@ -1005,6 +1064,12 @@
                 {
                     "type": "vr-mode-active-switch",
                     "active": true
+                },
+                {
+                    "type": "snap-rotate",
+                    "snap-rotate": {
+                        "player": "205"
+                    }
                 }
             ],
             "transformation": [
@@ -1065,7 +1130,8 @@
                 0.0,
                 -2.384185791015625e-7,
                 1.0
-            ]
+            ],
+            "deleted": true
         },
         "135": {
             "link": {
@@ -1077,133 +1143,152 @@
                 {
                     "active": true
                 }
-            ]
+            ],
+            "deleted": true
         },
         "136": {
             "link": {
                 "name": "xr_standard_trigger_pressed_max<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "137": {
             "link": {
                 "name": "xr_standard_trigger_pressed_min<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "138": {
             "link": {
                 "name": "xr_standard_trigger_pressed_value<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "139": {
             "link": {
                 "name": "pinky-finger-tip<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "140": {
             "link": {
                 "name": "pinky-finger-phalanx-distal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "141": {
             "link": {
                 "name": "pinky-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "142": {
             "link": {
                 "name": "pinky-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "143": {
             "link": {
                 "name": "pinky-finger-metacarpal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "144": {
             "link": {
                 "name": "ring-finger-tip<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "145": {
             "link": {
                 "name": "ring-finger-phalanx-distal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "146": {
             "link": {
                 "name": "ring-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "147": {
             "link": {
                 "name": "ring-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "148": {
             "link": {
                 "name": "ring-finger-metacarpal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "149": {
             "link": {
                 "name": "middle-finger-tip<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "150": {
             "link": {
                 "name": "middle-finger-phalanx-distal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "151": {
             "link": {
                 "name": "middle-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "152": {
             "link": {
                 "name": "middle-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "153": {
             "link": {
                 "name": "middle-finger-metacarpal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "154": {
             "link": {
@@ -1224,70 +1309,80 @@
                         "groups": 2
                     }
                 }
-            ]
+            ],
+            "deleted": true
         },
         "155": {
             "link": {
                 "name": "index-finger-phalanx-distal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "156": {
             "link": {
                 "name": "index-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "157": {
             "link": {
                 "name": "index-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "158": {
             "link": {
                 "name": "index-finger-metacarpal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "159": {
             "link": {
                 "name": "thumb-tip<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "160": {
             "link": {
                 "name": "thumb-phalanx-distal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "161": {
             "link": {
                 "name": "thumb-phalanx-proximal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "162": {
             "link": {
                 "name": "thumb-metacarpal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "163": {
             "link": {
                 "name": "wrist<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "deleted": true
         },
         "167": {
             "link": {
@@ -1328,77 +1423,88 @@
                 0.0,
                 -2.384185791015625e-7,
                 1.0
-            ]
+            ],
+            "deleted": true
         },
         "168": {
             "link": {
                 "name": "r_handMeshNode<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "169": {
             "link": {
                 "name": "wrist<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "170": {
             "link": {
                 "name": "thumb-metacarpal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "171": {
             "link": {
                 "name": "thumb-phalanx-proximal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "172": {
             "link": {
                 "name": "thumb-phalanx-distal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "173": {
             "link": {
                 "name": "thumb-tip<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "174": {
             "link": {
                 "name": "index-finger-metacarpal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "175": {
             "link": {
                 "name": "index-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "176": {
             "link": {
                 "name": "index-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "177": {
             "link": {
                 "name": "index-finger-phalanx-distal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "178": {
             "link": {
@@ -1419,112 +1525,128 @@
                 {
                     "type": "finger-cursor"
                 }
-            ]
+            ],
+            "deleted": true
         },
         "179": {
             "link": {
                 "name": "middle-finger-metacarpal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "180": {
             "link": {
                 "name": "middle-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "181": {
             "link": {
                 "name": "middle-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "182": {
             "link": {
                 "name": "middle-finger-phalanx-distal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "183": {
             "link": {
                 "name": "middle-finger-tip<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "184": {
             "link": {
                 "name": "ring-finger-metacarpal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "185": {
             "link": {
                 "name": "ring-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "186": {
             "link": {
                 "name": "ring-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "187": {
             "link": {
                 "name": "ring-finger-phalanx-distal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "188": {
             "link": {
                 "name": "ring-finger-tip<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "189": {
             "link": {
                 "name": "pinky-finger-metacarpal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "190": {
             "link": {
                 "name": "pinky-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "191": {
             "link": {
                 "name": "pinky-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "192": {
             "link": {
                 "name": "pinky-finger-phalanx-distal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "193": {
             "link": {
                 "name": "pinky-finger-tip<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "deleted": true
         },
         "194": {
             "name": "Panel",
@@ -1767,22 +1889,29 @@
                 "file": "models\\teleport-indicator.glb"
             },
             "transformation": [
-                1.0,
+                -5.9604367663723688e-8,
+                -0.0,
+                0.4999975,
                 0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
+                -0.0,
                 0.0099999,
-                1.3311299,
+                -0.0,
+                0.0,
+                -0.4999999,
+                -8.742284762774945e-8,
+                -5.960464477539064e-8,
+                0.0,
+                -1.1920928955078128e-7,
+                0.0099997,
+                1.3311296,
                 1.0
+            ],
+            "components": [
+                {
+                    "mesh": {
+                        "mesh": "8"
+                    }
+                }
             ]
         },
         "209": {
@@ -1851,35 +1980,6 @@
         "212": {
             "name": "CursorRight",
             "parent": "205",
-            "components": [
-                {
-                    "type": "cursor",
-                    "cursor": {
-                        "cursorObject": "215",
-                        "collisionGroup": 0,
-                        "cursorRayObject": "213",
-                        "cursorRayScalingAxis": "y"
-                    }
-                },
-                {
-                    "type": "input",
-                    "input": {
-                        "type": "ray right"
-                    }
-                },
-                {
-                    "type": "teleport",
-                    "teleport": {
-                        "floorGroup": 2,
-                        "camRoot": "14",
-                        "cam": "17",
-                        "teleportIndicatorMeshObject": "208",
-                        "indicatorYOffset": 0.0099999,
-                        "eyeLeft": "18",
-                        "eyeRight": "19"
-                    }
-                }
-            ],
             "transformation": [
                 1.0,
                 0.0,
@@ -1897,6 +1997,14 @@
                 0.0,
                 -2.384185791015625e-7,
                 1.0
+            ],
+            "components": [
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "ray right"
+                    }
+                }
             ]
         },
         "213": {
@@ -1958,9 +2066,10 @@
                 {
                     "type": "mesh",
                     "mesh": {
-                        "mesh": "9",
+                        "mesh": null,
                         "material": "128"
-                    }
+                    },
+                    "active": false
                 }
             ],
             "transformation": [
@@ -2754,7 +2863,11 @@
             "name": "MapGenerator",
             "components": [
                 {
-                    "type": "mapgenerator"
+                    "type": "mapgenerator",
+                    "mapgenerator": {
+                        "navController": "417",
+                        "navControllerObject": "417"
+                    }
                 }
             ]
         },
@@ -3624,13 +3737,13 @@
             "transformation": [
                 -1.000003,
                 0.0,
-                -8.940696716308599e-8,
+                -8.9406967163086e-8,
                 0.0,
                 0.0,
                 0.9999998,
                 0.0,
                 0.0,
-                8.940696716308599e-8,
+                8.9406967163086e-8,
                 0.0,
                 -1.000003,
                 0.0,
@@ -4506,13 +4619,13 @@
             "transformation": [
                 -1.0000002,
                 0.0,
-                5.960464477539064e-8,
+                5.960464477539065e-8,
                 0.0,
                 0.0,
                 1.0,
                 0.0,
                 0.0,
-                -5.960464477539064e-8,
+                -5.960464477539065e-8,
                 0.0,
                 -1.0000002,
                 0.0,
@@ -4744,13 +4857,13 @@
             "transformation": [
                 -1.0000002,
                 0.0,
-                5.960464477539063e-8,
+                5.960464477539065e-8,
                 0.0,
                 0.0,
                 1.0,
                 0.0,
                 0.0,
-                -5.960464477539063e-8,
+                -5.960464477539065e-8,
                 0.0,
                 -1.0000002,
                 0.0,
@@ -4758,6 +4871,249 @@
                 0.0,
                 1.5000027,
                 1.0
+            ]
+        },
+        "415": {
+            "link": {
+                "name": "Column",
+                "file": "assets\\models.glb"
+            },
+            "parent": "416",
+            "transformation": [
+                1.0000102,
+                0.0,
+                -0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0000102,
+                0.0,
+                -0.4997559,
+                0.0,
+                -0.5002441,
+                1.0
+            ]
+        },
+        "416": {
+            "name": "Column",
+            "parent": "405",
+            "transformation": [
+                -1.0000001,
+                0.0,
+                0.0004877,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                -0.0004877,
+                0.0,
+                -1.0000001,
+                0.0,
+                1.0000002,
+                0.0,
+                0.9999999,
+                1.0
+            ],
+            "components": [
+                {
+                    "type": "tile-descriptor",
+                    "tile-descriptor": {
+                        "name": "prop-column",
+                        "code": "prop-column"
+                    }
+                }
+            ]
+        },
+        "417": {
+            "name": "NavController",
+            "components": [
+                {
+                    "type": "navcontroller"
+                }
+            ]
+        },
+        "418": {
+            "link": {
+                "name": "root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "129",
+            "name": "ControllerModelRight",
+            "transformation": [
+                -0.9994148,
+                8.429378794971856e-8,
+                8.42937026845903e-8,
+                0.0,
+                0.0,
+                0.7066803,
+                -0.7066804,
+                0.0,
+                -1.1928123910820433e-7,
+                -0.7071192,
+                -0.7071191,
+                0.0,
+                0.0097994,
+                -0.1673223,
+                0.0362585,
+                1.0
+            ]
+        },
+        "419": {
+            "link": {
+                "name": "pistol",
+                "file": "assets\\pistol.glb"
+            },
+            "parent": "418",
+            "transformation": [
+                0.3830241,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3829121,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3829121,
+                0.0,
+                0.0098052,
+                0.1440402,
+                -0.0926744,
+                1.0
+            ],
+            "deleted": true
+        },
+        "420": {
+            "link": {
+                "name": "Group<pistol",
+                "file": "assets\\pistol.glb"
+            },
+            "parent": "419",
+            "transformation": [
+                0.9999833,
+                4.2159243207606787e-8,
+                0.0,
+                0.0,
+                -5.95861493479788e-8,
+                1.0,
+                0.0,
+                0.0,
+                -0.0,
+                0.0,
+                1.0,
+                0.0,
+                -0.0749984,
+                -0.1195274,
+                0.3750177,
+                1.0
+            ],
+            "deleted": true
+        },
+        "428": {
+            "name": "Pistol",
+            "parent": "418",
+            "transformation": [
+                0.3829999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3829999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3829999,
+                0.0,
+                0.0099999,
+                0.1439999,
+                -0.093,
+                1.0
+            ]
+        },
+        "429": {
+            "name": "Empty.000",
+            "parent": "428",
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -0.075,
+                0.1199999,
+                0.375,
+                1.0
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "425",
+                        "material": "422"
+                    }
+                },
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "426",
+                        "material": "421"
+                    }
+                },
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "427",
+                        "material": "423"
+                    }
+                }
+            ]
+        },
+        "430": {
+            "link": {
+                "name": "TeleportIndicator",
+                "file": "models\\teleport-indicator.glb"
+            },
+            "transformation": [
+                -1.1920922915464873e-8,
+                0.0,
+                0.0999999,
+                0.0,
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                -0.0999999,
+                0.0,
+                -1.1920929132713809e-8,
+                0.0,
+                1.192092895507813e-7,
+                0.0099998,
+                1.3311297,
+                1.0
+            ],
+            "parent": null,
+            "name": "NotTeleportIndicator",
+            "components": [
+                {
+                    "mesh": {
+                        "material": "22",
+                        "mesh": "8"
+                    }
+                }
             ]
         }
     },
@@ -5135,6 +5491,30 @@
             "link": {
                 "name": "Cube.001.0",
                 "file": "assets\\models.glb"
+            }
+        },
+        "424": {
+            "link": {
+                "name": "Mesh Group 199",
+                "file": "assets\\pistol.glb"
+            }
+        },
+        "425": {
+            "link": {
+                "name": "Mesh Group 201",
+                "file": "assets\\pistol.glb"
+            }
+        },
+        "426": {
+            "link": {
+                "name": "Mesh Group 201.0",
+                "file": "assets\\pistol.glb"
+            }
+        },
+        "427": {
+            "link": {
+                "name": "Mesh Group 201.1",
+                "file": "assets\\pistol.glb"
             }
         }
     },
@@ -5776,6 +6156,24 @@
                 "name": "Couch",
                 "file": "assets\\models.glb"
             }
+        },
+        "421": {
+            "link": {
+                "name": "grey",
+                "file": "assets\\pistol.glb"
+            }
+        },
+        "422": {
+            "link": {
+                "name": "greyDark",
+                "file": "assets\\pistol.glb"
+            }
+        },
+        "423": {
+            "link": {
+                "name": "dark",
+                "file": "assets\\pistol.glb"
+            }
         }
     },
     "shaders": {
@@ -5858,8 +6256,7 @@
             "version": [
                 0,
                 8,
-                8,
-                4
+                8
             ]
         },
         "vr": {
@@ -5959,6 +6356,7 @@
         "models/hand-right.glb",
         "models/button.glb",
         "models/teleport-indicator.glb",
-        "assets/models.glb"
+        "assets/models.glb",
+        "assets/pistol.glb"
     ]
 }

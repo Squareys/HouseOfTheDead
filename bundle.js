@@ -11,3 +11,6 @@ require('./js/wlUtils');
 require('./js/button');
 require('./js/mapgenerator');
 require('./js/tile-descriptor');
+require('./js/navcontroller');
+require('./js/target-picker');
+require('./js/snap-rotate');

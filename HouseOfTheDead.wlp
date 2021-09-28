@@ -262,21 +262,21 @@
                 }
             ],
             "transformation": [
-                0.5502164,
-                -8.940693874137657e-8,
-                -0.8350216,
+                0.7944436,
+                -1.3411030863608179e-7,
+                0.6073362,
                 0.0,
-                -0.5191864,
-                0.7832044,
-                -0.3421048,
+                0.3776226,
+                0.7832008,
+                -0.4939599,
                 0.0,
-                0.6539929,
-                0.6217639,
-                0.430932,
+                -0.4756669,
+                0.6217681,
+                0.6222099,
                 0.0,
-                -8.9406967163086e-8,
-                2.07954,
-                -4.76837158203125e-7,
+                -1.9371509552001954e-7,
+                2.0795483,
+                -6.556510925292969e-7,
                 1.0
             ]
         },
@@ -910,7 +910,8 @@
                         "allowedPickerMeshObject": "208",
                         "notAllowedPickerMeshObject": "430",
                         "player": "14",
-                        "navControllerObject": "417"
+                        "navControllerObject": "417",
+                        "rayObject": "209"
                     }
                 }
             ],
@@ -1889,28 +1890,26 @@
                 "file": "models\\teleport-indicator.glb"
             },
             "transformation": [
-                -5.9604367663723688e-8,
-                -0.0,
-                0.4999975,
+                0.9999999,
                 0.0,
-                -0.0,
-                0.0099999,
-                -0.0,
                 0.0,
-                -0.4999999,
-                -8.742284762774945e-8,
-                -5.960464477539064e-8,
                 0.0,
-                -1.1920928955078128e-7,
-                0.0099997,
-                1.3311296,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.9999999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
                 1.0
             ],
             "components": [
                 {
-                    "mesh": {
-                        "mesh": "8"
-                    }
+                    "active": false
                 }
             ]
         },
@@ -1934,7 +1933,8 @@
                 0.0,
                 2.384185791015625e-7,
                 1.0
-            ]
+            ],
+            "deleted": true
         },
         "210": {
             "name": "CuresorRayMeshLeft",
@@ -1965,7 +1965,8 @@
                 0.0002447,
                 0.0,
                 1.0
-            ]
+            ],
+            "deleted": true
         },
         "211": {
             "name": "CursorRight",
@@ -2027,7 +2028,8 @@
                 0.0,
                 2.384185791015625e-7,
                 1.0
-            ]
+            ],
+            "deleted": true
         },
         "214": {
             "name": "CuresorRayMeshRight",
@@ -2058,7 +2060,8 @@
                 0.0002447,
                 0.0,
                 1.0
-            ]
+            ],
+            "deleted": true
         },
         "215": {
             "name": "3DCursorHitRight",
@@ -5019,21 +5022,21 @@
             "name": "Pistol",
             "parent": "418",
             "transformation": [
-                0.3829999,
+                0.3829919,
+                4.842657119752403e-8,
                 0.0,
                 0.0,
+                -5.707038397417819e-8,
+                0.3829998,
+                -2.9802313505911117e-8,
                 0.0,
                 0.0,
-                0.3829999,
+                7.450583439094771e-8,
+                0.3829997,
                 0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.3829999,
-                0.0,
-                0.0099999,
-                0.1439999,
-                -0.093,
+                0.01,
+                0.018144,
+                -0.0929888,
                 1.0
             ]
         },
@@ -5112,8 +5115,40 @@
                     "mesh": {
                         "material": "22",
                         "mesh": "8"
+                    },
+                    "active": false
+                }
+            ]
+        },
+        "431": {
+            "name": "Mesh.000",
+            "parent": "208",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "7",
+                        "material": "432"
                     }
                 }
+            ],
+            "transformation": [
+                0.5,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -5.9604605695540168e-8,
+                -0.4999996,
+                0.0,
+                0.0,
+                0.4999999,
+                -5.9604637669963277e-8,
+                0.0,
+                0.0,
+                0.0099999,
+                0.0,
+                1.0
             ]
         }
     },
@@ -5645,6 +5680,12 @@
                 "name": "texture_15",
                 "file": "assets\\models.glb"
             }
+        },
+        "434": {
+            "link": {
+                "name": "target_0.png",
+                "file": "assets\\target_0.png"
+            }
         }
     },
     "images": {
@@ -5789,6 +5830,17 @@
                 "name": "textures_17",
                 "file": "assets\\models.glb"
             }
+        },
+        "433": {
+            "link": {
+                "name": "target_0.png",
+                "file": "assets\\target_0.png"
+            },
+            "maxSize": [
+                168,
+                168
+            ],
+            "compress": true
         }
     },
     "materials": {
@@ -6174,6 +6226,18 @@
                 "name": "dark",
                 "file": "assets\\pistol.glb"
             }
+        },
+        "432": {
+            "name": "teleportationTarget",
+            "pipeline": "35",
+            "Phong": {
+                "diffuseTexture": "434",
+                "alphaMaskThreshold": 0.0
+            },
+            "Flat": {
+                "flatTexture": "434",
+                "alphaMaskThreshold": 0.6999999
+            }
         }
     },
     "shaders": {
@@ -6357,6 +6421,7 @@
         "models/button.glb",
         "models/teleport-indicator.glb",
         "assets/models.glb",
-        "assets/pistol.glb"
+        "assets/pistol.glb",
+        "assets/target_0.png"
     ]
 }

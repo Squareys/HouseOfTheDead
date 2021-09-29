@@ -4948,21 +4948,21 @@
             "parent": "129",
             "name": "ControllerModelRight",
             "transformation": [
-                -0.9994148,
-                8.429378794971856e-8,
-                8.42937026845903e-8,
+                -0.9994328,
+                -5.957083359930948e-8,
+                -5.9570851362877877e-8,
                 0.0,
-                0.0,
-                0.7066803,
+                -1.533052795821277e-8,
+                0.7066802,
                 -0.7066804,
                 0.0,
-                -1.1928123910820433e-7,
-                -0.7071192,
-                -0.7071191,
+                7.40684242828138e-8,
+                -0.7071189,
+                -0.7071189,
                 0.0,
-                0.0097994,
-                -0.1673223,
-                0.0362585,
+                0.0097999,
+                0.0462625,
+                -0.0620349,
                 1.0
             ]
         },
@@ -5038,7 +5038,8 @@
                 0.018144,
                 -0.0929888,
                 1.0
-            ]
+            ],
+            "deleted": true
         },
         "429": {
             "name": "Empty.000",
@@ -5083,7 +5084,8 @@
                         "material": "423"
                     }
                 }
-            ]
+            ],
+            "deleted": true
         },
         "430": {
             "link": {
@@ -5149,6 +5151,362 @@
                 0.0099999,
                 0.0,
                 1.0
+            ]
+        },
+        "439": {
+            "link": {
+                "name": "generated(Clone)",
+                "file": "assets\\gun.glb"
+            },
+            "parent": "418",
+            "transformation": [
+                -0.0,
+                0.0,
+                -0.0099999,
+                0.0,
+                0.0,
+                0.0099999,
+                0.0,
+                0.0,
+                0.0099999,
+                0.0,
+                -0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "462": {
+            "link": {
+                "name": "Cabinet",
+                "file": "assets\\models.glb"
+            },
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                5.5320429,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "deleted": true
+        },
+        "463": {
+            "link": {
+                "name": "Door",
+                "file": "assets\\models.glb"
+            },
+            "parent": "217",
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.1920930376163597e-7,
+                1.0,
+                0.0,
+                0.0,
+                -1.0,
+                -1.1920930376163597e-7,
+                0.0,
+                -7.0512981,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "464": {
+            "link": {
+                "name": "Chair_1",
+                "file": "assets\\models.glb"
+            },
+            "parent": "470",
+            "transformation": [
+                -0.8000065,
+                0.0,
+                -0.0003901,
+                0.0,
+                0.0,
+                0.8,
+                0.0,
+                0.0,
+                0.0003901,
+                0.0,
+                -0.8,
+                0.0,
+                0.0,
+                -2.9802322387695315e-8,
+                0.0,
+                1.0
+            ],
+            "name": "Chair"
+        },
+        "465": {
+            "link": {
+                "name": "Table_RoundLarge",
+                "file": "assets\\models.glb"
+            },
+            "parent": "471",
+            "transformation": [
+                -0.8000009,
+                0.0,
+                -0.0003901,
+                0.0,
+                0.0,
+                0.8,
+                0.0,
+                0.0,
+                0.0003901,
+                0.0,
+                -0.8,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "466": {
+            "link": {
+                "name": "Table_RoundSmall2",
+                "file": "assets\\models.glb"
+            },
+            "parent": "472",
+            "transformation": [
+                -0.8000012,
+                0.0,
+                -0.0003901,
+                0.0,
+                0.0,
+                0.8,
+                0.0,
+                0.0,
+                0.0003901,
+                0.0,
+                -0.8,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "467": {
+            "link": {
+                "name": "Chair",
+                "file": "assets\\models.glb"
+            },
+            "parent": "469",
+            "transformation": [
+                -1.0000008,
+                0.0,
+                -0.0004877,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0004877,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "468": {
+            "link": {
+                "name": "Bed_Single",
+                "file": "assets\\models.glb"
+            },
+            "parent": "473",
+            "transformation": [
+                -0.8000008,
+                0.0,
+                -0.0003901,
+                0.0,
+                0.0,
+                0.8,
+                0.0,
+                0.0,
+                0.0003901,
+                0.0,
+                -0.8,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "469": {
+            "name": "Chair1",
+            "parent": "405",
+            "transformation": [
+                -1.0000036,
+                0.0,
+                0.0004877,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                -0.0004877,
+                0.0,
+                -1.0000036,
+                0.0,
+                0.0019508,
+                0.0,
+                3.9999995,
+                1.0
+            ],
+            "components": [
+                {
+                    "type": "tile-descriptor",
+                    "tile-descriptor": {
+                        "name": "prop-chair1",
+                        "code": "prop-chair1"
+                    }
+                }
+            ]
+        },
+        "470": {
+            "name": "Chair2",
+            "parent": "405",
+            "transformation": [
+                -1.000005,
+                0.0,
+                0.0004877,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                -0.0004877,
+                0.0,
+                -1.000005,
+                0.0,
+                1.5019506,
+                0.0,
+                3.9992682,
+                1.0
+            ],
+            "components": [
+                {
+                    "type": "tile-descriptor",
+                    "tile-descriptor": {
+                        "name": "prop-chair2",
+                        "code": "prop-chair2"
+                    }
+                }
+            ]
+        },
+        "471": {
+            "name": "LargeTable",
+            "parent": "405",
+            "transformation": [
+                -1.0000081,
+                0.0,
+                0.0004877,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                -0.0004877,
+                0.0,
+                -1.0000081,
+                0.0,
+                -3.4980487,
+                0.0,
+                4.001707,
+                1.0
+            ],
+            "components": [
+                {
+                    "type": "tile-descriptor",
+                    "tile-descriptor": {
+                        "name": "prop-large-table",
+                        "code": "prop-large-table"
+                    }
+                }
+            ]
+        },
+        "472": {
+            "name": "SmallTable",
+            "parent": "405",
+            "transformation": [
+                -1.0000138,
+                0.0,
+                0.0004877,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                -0.0004877,
+                0.0,
+                -1.0000138,
+                0.0,
+                3.5019507,
+                0.0,
+                3.9982929,
+                1.0
+            ],
+            "components": [
+                {
+                    "type": "tile-descriptor",
+                    "tile-descriptor": {
+                        "name": "prop-small-table",
+                        "code": "prop-small-table"
+                    }
+                }
+            ]
+        },
+        "473": {
+            "name": "BedSingle",
+            "parent": "405",
+            "transformation": [
+                -1.0000185,
+                0.0,
+                0.0004877,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                -0.0004877,
+                0.0,
+                -1.0000185,
+                0.0,
+                -7.4980478,
+                0.0,
+                4.0036578,
+                1.0
+            ],
+            "components": [
+                {
+                    "type": "tile-descriptor",
+                    "tile-descriptor": {
+                        "name": "prop-bed-single",
+                        "code": "prop-bed-single"
+                    }
+                }
             ]
         }
     },
@@ -5551,6 +5909,102 @@
                 "name": "Mesh Group 201.1",
                 "file": "assets\\pistol.glb"
             }
+        },
+        "438": {
+            "link": {
+                "name": " Instance",
+                "file": "assets\\gun.glb"
+            }
+        },
+        "447": {
+            "link": {
+                "name": " Instance.0",
+                "file": "assets\\gun.glb"
+            }
+        },
+        "448": {
+            "link": {
+                "name": " Instance.1",
+                "file": "assets\\gun.glb"
+            }
+        },
+        "449": {
+            "link": {
+                "name": " Instance.2",
+                "file": "assets\\gun.glb"
+            }
+        },
+        "450": {
+            "link": {
+                "name": " Instance.3",
+                "file": "assets\\gun.glb"
+            }
+        },
+        "451": {
+            "link": {
+                "name": "Plane.016",
+                "file": "assets\\models.glb"
+            }
+        },
+        "452": {
+            "link": {
+                "name": "Cube.004",
+                "file": "assets\\models.glb"
+            }
+        },
+        "453": {
+            "link": {
+                "name": "Cylinder.013",
+                "file": "assets\\models.glb"
+            }
+        },
+        "454": {
+            "link": {
+                "name": "Cylinder.016",
+                "file": "assets\\models.glb"
+            }
+        },
+        "455": {
+            "link": {
+                "name": "Cube.044",
+                "file": "assets\\models.glb"
+            }
+        },
+        "456": {
+            "link": {
+                "name": "Cube.044.0",
+                "file": "assets\\models.glb"
+            }
+        },
+        "457": {
+            "link": {
+                "name": "Cube.003",
+                "file": "assets\\models.glb"
+            }
+        },
+        "458": {
+            "link": {
+                "name": "Cube.003.0",
+                "file": "assets\\models.glb"
+            }
+        },
+        "459": {
+            "link": {
+                "name": "Cube.003.1",
+                "file": "assets\\models.glb"
+            }
+        },
+        "460": {
+            "link": {
+                "name": "Cube.003.2",
+                "file": "assets\\models.glb"
+            }
+        },
+        "461": {
+            "link": {
+                "name": "Cube.003.3",
+                "file": "assets\\models.glb"
+            }
         }
     },
     "textures": {
@@ -5685,6 +6139,12 @@
             "link": {
                 "name": "target_0.png",
                 "file": "assets\\target_0.png"
+            }
+        },
+        "436": {
+            "link": {
+                "name": "texture_0",
+                "file": "assets\\gun.glb"
             }
         }
     },
@@ -5841,6 +6301,18 @@
                 168
             ],
             "compress": true
+        },
+        "435": {
+            "link": {
+                "name": "gun",
+                "file": "assets\\gun.glb"
+            }
+        },
+        "440": {
+            "link": {
+                "name": "image_0",
+                "file": "assets\\gun.glb"
+            }
         }
     },
     "materials": {
@@ -6238,6 +6710,51 @@
                 "flatTexture": "434",
                 "alphaMaskThreshold": 0.6999999
             }
+        },
+        "437": {
+            "link": {
+                "name": "gun",
+                "file": "assets\\gun.glb"
+            },
+            "Phong": {
+                "shininess": 1,
+                "specularColor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.0
+                ]
+            }
+        },
+        "442": {
+            "link": {
+                "name": "color14",
+                "file": "assets\\gun.glb"
+            }
+        },
+        "443": {
+            "link": {
+                "name": "color13",
+                "file": "assets\\gun.glb"
+            }
+        },
+        "444": {
+            "link": {
+                "name": "color12",
+                "file": "assets\\gun.glb"
+            }
+        },
+        "445": {
+            "link": {
+                "name": "color3",
+                "file": "assets\\gun.glb"
+            }
+        },
+        "446": {
+            "link": {
+                "name": "color0",
+                "file": "assets\\gun.glb"
+            }
         }
     },
     "shaders": {
@@ -6422,6 +6939,7 @@
         "models/teleport-indicator.glb",
         "assets/models.glb",
         "assets/pistol.glb",
-        "assets/target_0.png"
+        "assets/target_0.png",
+        "assets/gun.glb"
     ]
 }

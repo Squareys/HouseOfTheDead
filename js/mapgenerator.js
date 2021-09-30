@@ -28,18 +28,29 @@ const mapgenComponent = {
         this.totalRooms = 0;
 
         this.mapRoot = WL.scene.addObject(this.object);
-        let exits = this.addRoom();
+        let { exits, room } = this.addRoom();
+
+        this.rootRoom = room;
+        this.roomList = [];
+        this.roomList[room.id] = room;
+
         for (let i = 0; i < 10; i++) {
             exits = this.generateRooms(exits);
         }
-        console.log(this.totalRooms);
-
+        console.log(this.roomList);
+        this.onGenerated();
     },
-    generateRooms(exits) {
+    onGenerated () {},
+    generateRooms(exits3) {
         let exits2 = [];
-        exits.forEach(exit => {
-            if (exit)
-                exits2 = exits2.concat(this.addRoom(exit));
+        exits3.forEach(exit => {
+            if (exit) {
+                let { exits, room } = this.addRoom(exit);
+                if (room) {
+                    this.roomList[room.id] = room;
+                }
+                exits2 = exits2.concat(exits);
+            }
         });
         return exits2;
     },
@@ -60,7 +71,7 @@ const mapgenComponent = {
         let numTries = 60;
         let room, roomPosition;
         let availableExits = [];
-        let roomId = new Date().getTime();
+        let roomId = this.totalRooms + 1;
         if (startingExit) {
             console.log(`-{ starting ${roomId}}-`);
             do {
@@ -85,7 +96,7 @@ const mapgenComponent = {
             if (!roomFound) {
                 console.log(`no room found (${roomId})`);
                 //  debugger;
-                return;
+                return { exits: [], room: null };
             }
         } else {
             do {
@@ -99,12 +110,19 @@ const mapgenComponent = {
         let roomEntity = WL.scene.addObject();
         roomEntity.parent = this.mapRoot;
         room.id = roomId;
+        room.connectedRooms = [];
+        if (startingExit) {
+            startingExit.room.connectedRooms.push(room);
+
+        }
+
         room.forEach((row, rowIndex) => {
             row.forEach((cell, cellIndex) => {
                 const x = roomPosition.x + cellIndex;
                 const y = roomPosition.y + rowIndex;
                 this.navController.draw(x, y, this.totalRooms + 1, this.isArch(cell), cell.orientation);
                 console.log(x * 3, y * 3);
+                cell.position = { x: x * 3, y: y * 3 };
                 if (cell.wall) {
                     const wallToPlace = wlUtils.cloneObject(this.walls[cell.wall]);
                     wallToPlace.parent = roomEntity;
@@ -141,7 +159,8 @@ const mapgenComponent = {
                 if (this.isArch(cell)) {
                     this.drawPixel(x, y, '#F00');
                     var d = wlUtils.translateFromDirection(x, y, cell.orientation);
-                    availableExits.push({ x: x + d.x, y: y + d.y, o: cell.orientation });
+
+                    availableExits.push({ x: x + d.x, y: y + d.y, o: cell.orientation, roomId: roomId, room: room });
                     //this.drawPixel(x + d.x, y + d.y, '#400');
                 } else {
                     this.drawPixel(x, y, '#888');
@@ -149,8 +168,9 @@ const mapgenComponent = {
             })
         })
         this.totalRooms++;
+        room.availableExits = availableExits;
         console.log(`exits:${availableExits.length} (${roomId})`);
-        return availableExits;
+        return { exits: availableExits, room: room };
 
 
 

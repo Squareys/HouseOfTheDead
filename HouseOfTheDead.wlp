@@ -5523,7 +5523,10 @@
                     }
                 },
                 {
-                    "type": "zombie-controller"
+                    "type": "zombie-controller",
+                    "zombie-controller": {
+                        "mapGenObject": "340"
+                    }
                 }
             ]
         },

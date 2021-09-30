@@ -7,6 +7,8 @@ jobs:
       image: wonderlandengine/editor:edge
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: true
     - name: npm install, build, and test
       run: |
         # Build and test the project, then

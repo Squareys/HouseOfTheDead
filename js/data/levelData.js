@@ -7,8 +7,8 @@ export const leveldata = {
         // ],
         [
             [{ orientation: 'N', wall: ['WC', 'WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'N', wall: ['WI', 'W', 'A'], prop: 'prop-books', floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: 'WC', floor: 'W', ceiling: 'W' }],
-            [{ orientation: 'W', wall: 'A', floor: 'W', ceiling: 'W',prop: 'prop-bed-single'}, { floor: 'W', ceiling: 'W', light: '' }, { orientation: 'E', wall: ['WI', 'W', 'A'], floor: 'W', ceiling: 'W' }],
-            [{ orientation: 'W', wall: ['WC', 'WCWI'], floor: 'W', ceiling: 'W',prop: 'prop-chair1'}, { orientation: 'S', wall: ['WI', 'W'], floor: 'W', ceiling: 'W',prop: 'prop-small-table' }, { orientation: 'S', wall: 'WC', floor: 'W', ceiling: 'W',prop: 'prop-chair2' }]
+            [{ orientation: 'W', wall: 'A', floor: 'W', ceiling: 'W'}, { floor: 'W', ceiling: 'W', light: '' }, { orientation: 'E', wall: ['WI', 'W', 'A'], floor: 'W', ceiling: 'W' }],
+            [{ orientation: 'W', wall: ['WC', 'WCWI'], floor: 'W', ceiling: 'W',prop: 'prop-chair1'}, { orientation: 'S', wall: ['WI', 'W'], floor: 'W', ceiling: 'W',prop: 'prop-bed-single' }, { orientation: 'S', wall: 'WC', floor: 'W', ceiling: 'W',prop: 'prop-chair2' }]
         ],
         [
             [{ orientation: 'N', wall: ['WCA', 'WC', 'WCWI'], floor: 'W', ceiling: 'W' }, { orientation: 'E', wall: ['WC', 'WCWI'], floor: 'W', ceiling: 'W' }],

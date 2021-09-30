@@ -14,3 +14,5 @@ require('./js/tile-descriptor');
 require('./js/navcontroller');
 require('./js/target-picker');
 require('./js/snap-rotate');
+require('./js/zombie-controller');
+require('./js/waypoint-movement');

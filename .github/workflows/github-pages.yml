@@ -4,15 +4,9 @@ jobs:
   package:
     runs-on: ubuntu-latest
     container:
-      image: wonderlandengine/editor:edge
+      image: wonderlandengine/editor:edge-node
     steps:
-    - uses: actions/checkout@v2      
-    # - name: npm install, build, and test
-    #   run: |
-    #     # Build and test the project, then
-    #     # deploy to Azure Web App.
-    #     npm install
-    #     npm run build --if-present
+    - uses: actions/checkout@v2
     - name: Package
       run: /usr/local/bin/entrypoint.sh WonderlandEditor --windowless --package --project HouseOfTheDead.wlp --credentials "$WLE_CREDENTIALS"
       env:
@@ -23,7 +17,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: HouseOfTheDead-deploy
-        path: deploy/            
+        path: deploy/
   deploy:
     needs: package
     runs-on: ubuntu-latest
